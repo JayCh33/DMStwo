@@ -4,29 +4,36 @@
 <% end %>
 
 <h1>Products List</h1>
-  <% cache @products do %>
-    <% @products.each do |product| %>
-      <% cache product do %>
-        <li>
-          <%= image_tag(product.image.small) %>
-          <h2><%= product.name %></h2>
-          <h3><%= product.category %></h3>
-          <p>
-            <%= sanitize(product.description) %>
-          </p>
-          <div class="price">
-            <b>Price: </b><%= number_to_currency(product.price, :unit => "€") %>
-          </div>
-          <div class="quantity">
-            <b>In stock: </b><%= product.quantity %>
-          </div>
-          <div>
-            <%= button_to 'Add to Cart', line_items_path(product_id: product), remote: true %>
-            <br>
-          </div>
 
-        </li>
-        <% end %>
-    <% end %>
-    <% end %>
+      <table style="width:100%">
+        <tr>
+          <th>Image: </th>
+          <th>Name: </th>
+          <th>Category: </th>
+          <th>Description: </th>
+          <th>Quantity: </th>
+          <th>Price: </th>
+        </tr>
+
+
+          <% cache @products do %>
+            <% @products.each do |product| %>
+              <% cache product do %>
+              <tr>
+          <td><%= image_tag(product.image.thumb) %></td>
+          <td><%= product.name %></h2></td>
+          <td><%= product.category %></h3></td>
+          <td><p><%= sanitize(product.description) %></p></td>
+          <td><%= product.quantity %></td>
+          <td><%= number_to_currency(product.price, :unit => "€") %></td>
+          <td><%= button_to 'Add to Cart', line_items_path(product_id: product), remote: true %></td>
+                </tr>
+
+              <% end %>
+            <% end %>
+          <% end %>
+
+
+      </table>
+
 </ul>

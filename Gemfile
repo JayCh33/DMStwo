@@ -26,13 +26,12 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
-# gem 'redis', '~> 4.0'
+ gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
 
 
 ##########Added Gems##################
@@ -41,12 +40,26 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 #Guide for carrierwave https://code.tutsplus.com/tutorials/rails-image-upload-using-carrierwave-in-a-rails-app--cms-25183
 gem 'carrierwave', '~> 1.0'
 gem 'mini_magick', '~> 4.5', '>= 4.5.1'
-#Guide for Devise/BetterErrors/RailsLayout https://github.com/RailsApps/rails-devise-roles
-gem 'devise', '~> 4.2'
 gem 'rails_layout', '~> 1.0', '>= 1.0.26'
 gem 'webpacker'
+#gem 'foundation-rails'
+#gem 'autoprefixer-rails'
 
 
+#Guide for Devise/BetterErrors/RailsLayout https://github.com/RailsApps/rails-devise-roles
+gem 'devise'
+gem 'rolify'
+gem 'cancancan'
+gem 'pundit'
+gem 'draper'
+gem 'activeadmin', github: 'activeadmin'
+gem 'inherited_resources', github: 'activeadmin/inherited_resources'
+gem 'country-select'
+gem 'activeadmin-xls', '~>2.0.0'
+
+#Calendar gems
+gem 'trix'
+gem "simple_calendar", "~> 2.0"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

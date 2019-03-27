@@ -1,24 +1,29 @@
 # README
+DMS TWO v0.2a
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Steps done: 
+-Created Products(Name,Image,Description,Category,Price,Quantity)
+-Created Line Items(Product,Order,Quantity,Cart, +Price)
+-Created Carts(+Combined items in cart)
+-Created Orders (Name,Addres,Email,Paytype)
+-Created AdminUsers and Users (Devise/ActiveAdmin)
 
-Things you may want to cover:
+Notes:
+Fixed cart issue. Everything working good.
 
-* Ruby version
 
-* System dependencies
+Future things to fix:
+-Compine orders with line_items and products to admin page and make products visible in orders
 
-* Configuration
+-Add roles and accesses to admins
 
-* Database creation
+-Make users able to sign up (home page)
 
-* Database initialization
+-Make home page able to sign up as an admin
 
-* How to run the test suite
+-Inventory tracking, stock reduction
 
-* Services (job queues, cache servers, search engines, etc.)
+-Car retail
 
-* Deployment instructions
+-Service (Appointments, timers, Price, Instructions)
 
-* ...
