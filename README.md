@@ -1,29 +1,34 @@
 # README
-DMS TWO v0.2a
+DMS TWO v0.4a
 
-Steps done: 
--Created Products(Name,Image,Description,Category,Price,Quantity)
--Created Line Items(Product,Order,Quantity,Cart, +Price)
--Created Carts(+Combined items in cart)
--Created Orders (Name,Addres,Email,Paytype)
--Created AdminUsers and Users (Devise/ActiveAdmin)
+**Initial setup**
+1. rake db:create
+2. rake db:migrate
+3. rake db:seed
+4. rails server
+5. login using "admin@example.com" and "password" as credentials,
+    you may edit your user details later
+    
+    
+    
+##### **_v0.4a patch notes:_**
 
-Notes:
-Fixed cart issue. Everything working good.
+-Added admin_users with superadmin (boolean) as role
 
+-Added clients (including their vehicle details form in the client model)
 
-Future things to fix:
--Compine orders with line_items and products to admin page and make products visible in orders
+-Added service appointment management (connected to clients)
 
--Add roles and accesses to admins
+-Added products-parts (also added the ability to upload image)
 
--Make users able to sign up (home page)
+-Added purchase orders (connected to the suppliers)
 
--Make home page able to sign up as an admin
+-Added feature to download in excel (.xls) form the index of models
 
--Inventory tracking, stock reduction
+##### _**Incoming patch features:**_
 
--Car retail
+-Car retail management
 
--Service (Appointments, timers, Price, Instructions)
+-Add completed service appointment status
 
+-Add Used/New status in products(parts)
