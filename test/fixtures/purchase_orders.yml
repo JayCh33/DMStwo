@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  supplier: one
+  products_list: MyText
+  eta: 2019-03-26
+  completed: false
+
+two:
+  supplier: two
+  products_list: MyText
+  eta: 2019-03-26
+  completed: false

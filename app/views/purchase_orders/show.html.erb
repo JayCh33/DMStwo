@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Supplier:</strong>
+  <%= @purchase_order.supplier %>
+</p>
+
+<p>
+  <strong>Products list:</strong>
+  <%= @purchase_order.products_list %>
+</p>
+
+<p>
+  <strong>Eta:</strong>
+  <%= @purchase_order.eta %>
+</p>
+
+<p>
+  <strong>Completed:</strong>
+  <%= @purchase_order.completed %>
+</p>
+
+<%= link_to 'Edit', edit_purchase_order_path(@purchase_order) %> |
+<%= link_to 'Back', purchase_orders_path %>

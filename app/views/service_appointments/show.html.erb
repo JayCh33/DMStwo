@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @service_appointment.title %>
+</p>
+
+<p>
+  <strong>Start time:</strong>
+  <%= @service_appointment.start_time %>
+</p>
+
+<p>
+  <strong>End time:</strong>
+  <%= @service_appointment.end_time %>
+</p>
+
+<p>
+  <strong>Appointment details:</strong>
+  <%= @service_appointment.appointment_details %>
+</p>
+
+<p>
+  <strong>Client:</strong>
+  <%= @service_appointment.client %>
+</p>
+
+<%= link_to 'Edit', edit_service_appointment_path(@service_appointment) %> |
+<%= link_to 'Back', service_appointments_path %>
