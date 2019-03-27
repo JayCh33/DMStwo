@@ -2,6 +2,7 @@
 DMS TWO v0.4a
 
 **Initial setup**
+
 1. rake db:create
 
 2. rake db:migrate
