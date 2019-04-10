@@ -6,7 +6,7 @@ ActiveAdmin.register ServiceAppointment do
       f.input :title, label: "Service appointment title: "
       f.input :start_time, start_year: Date.today.year, label: "Service starting at: "
       f.input :end_time, start_year: Date.today.year, label: "Service estimated to be fineshed at: "
-      f.input :client
+      f.input :client, label: "Client: "
       f.input :appointment_details,:input_html => {'rows' => 5}
       #f.input :completed
     end
@@ -21,4 +21,11 @@ ActiveAdmin.register ServiceAppointment do
     column :end_time
     actions
   end
+
+  filter :client
+  filter :title
+  filter :start_time
+  filter :end_time
+  filter :appointment_details
+
 end

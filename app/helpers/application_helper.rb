@@ -13,4 +13,8 @@ module ApplicationHelper
     admin_user_signed_in? && current_admin_user.superadmin?
   end
 
+  def current_user?
+    admin_user_signed_in? && current_admin_user?
+  end
+
 end

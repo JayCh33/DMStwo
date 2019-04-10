@@ -6,7 +6,7 @@ ActiveAdmin.setup do |config|
   #
   config.site_title = "Dmstwo"
 
-  config.download_links = %i[csv xml json xls]
+  config.download_links = %i[xls]
 
   #config.authorization_adapter = ActiveAdmin::CanCanAdapter
   #config.cancan_ability_class = Ability
