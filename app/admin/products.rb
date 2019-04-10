@@ -6,7 +6,7 @@ ActiveAdmin.register Product do
       f.input :name, label: 'Product name ', placeholder: "Product name"
       f.input :image
       f.input :description, label: "Product Description ",
-              :input_html => {'rows' => 5},placeholder: "Product code | Product compatibility | Full part details"
+              :input_html => {'rows' => 5},placeholder: "Product code: | Product compatibility: | Full part details: "
       f.input :category, collection: ['Body components', 'Door components',
                                       'Windows', 'Audio and Video Devices',
                                       'Cameras', 'Electrical supply system',
@@ -25,6 +25,7 @@ ActiveAdmin.register Product do
       row :name
       row :category
       row :description
+      row :quantity
       row :image do |ad|
         image_tag ad.image.medium
       end
@@ -34,12 +35,13 @@ ActiveAdmin.register Product do
 
   index do
     id_column
-    column :name
-    column :category
     column :image do |ad|
       image_tag ad.image.thumb
     end
+    column :name
+    column :category
     column :description
+    column :quantity
 
     actions
   end
