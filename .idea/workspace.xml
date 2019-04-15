@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d8803e1b-4793-4897-a6ca-cf8e3deb0afb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/admin_users.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/admin_users.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/service_appointments.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/service_appointments.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/active_admin.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/active_admin.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -51,12 +49,12 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/admin/admin_users.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
-              <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -82,8 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1127">
-              <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+            <state relative-caret-position="509">
+              <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -151,13 +149,13 @@
         <option value="$PROJECT_DIR$/app/admin/clients.rb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/app/admin/dashboard.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/admin/products.rb" />
         <option value="$PROJECT_DIR$/app/admin/purchase_orders.rb" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/app/admin/admin_users.rb" />
         <option value="$PROJECT_DIR$/app/admin/service_appointments.rb" />
         <option value="$PROJECT_DIR$/config/initializers/active_admin.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -207,8 +205,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -364,7 +362,8 @@
       <workItem from="1553706143780" duration="6187000" />
       <workItem from="1553723737817" duration="2182000" />
       <workItem from="1554893653487" duration="2598000" />
-      <workItem from="1554901211642" duration="5583000" />
+      <workItem from="1554901211642" duration="6252000" />
+      <workItem from="1555354239926" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed seed Admin_user.superadmin&#10;Fixed Yarn error">
       <created>1553705869827</created>
@@ -422,17 +421,24 @@
       <option name="project" value="LOCAL" />
       <updated>1554901445794</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="v0.5.2 (adminuser accesses fixes)">
+      <created>1554911696686</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1554911696686</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100418000" />
+    <option name="totallyTimeSpent" value="101104000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1312" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34265175" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34824282" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -484,7 +490,8 @@
     <MESSAGE value="Dashboard changes v0.4.2a" />
     <MESSAGE value="v0.5 (Heroku gemfile changes)" />
     <MESSAGE value="v0.5.1 (Product quantity in index)" />
-    <option name="LAST_COMMIT_MESSAGE" value="v0.5.1 (Product quantity in index)" />
+    <MESSAGE value="v0.5.2 (adminuser accesses fixes)" />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.5.2 (adminuser accesses fixes)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/config/initializers/application_controller_renderer.rb">
@@ -738,7 +745,7 @@
     <entry file="file://$PROJECT_DIR$/app/admin/admin_users.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -758,8 +765,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1127">
-          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+        <state relative-caret-position="509">
+          <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
         </state>
       </provider>
     </entry>
