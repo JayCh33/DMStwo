@@ -41,6 +41,7 @@ ActiveAdmin.register Product do
     column :name
     column :category
     column :description
+    number_column :price, as: :currency, unit: "€", separator: ","
     column :quantity
 
     actions

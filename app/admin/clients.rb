@@ -16,9 +16,10 @@ ActiveAdmin.register Client do
       f.input :phone
       f.input :details,:input_html => {'rows' => 5}
       f.input :vehicle_registration_plate
-      f.input :vehicle_brand, collection: ['Alfa Romeo', 'Audi', 'BMW',
-                                           'Ford', 'Fiat','Mercedes-Benz', 'Opel','Volkswagen'],
-              prompt: 'Choose brand'
+      f.input :vehicle_brand, collection: ['Alfa Romeo', 'Audi', 'BMW','Citroen','Fiat',
+                                           'Ford', 'Hyundai', 'Mercedes-Benz', 'Nissan', 'Opel',
+                                           'Peygeot', 'Renault', 'Suzuki', 'Toyota' ,'Volkswagen'],
+              prompt: 'Select brand'
       f.input :vehicle_model
       f.input :vehicle_model_details,:input_html => {'rows' => 5}
       f.input :vehicle_life_cycle,:input_html => {'rows' => 5}

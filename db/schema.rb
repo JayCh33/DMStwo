@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20190327124617) do
+ActiveRecord::Schema.define(version: 20190417104341) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string "namespace"
@@ -147,6 +147,28 @@ ActiveRecord::Schema.define(version: 20190327124617) do
     t.string "email"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "vehicles", force: :cascade do |t|
+    t.string "vehicle_make"
+    t.string "vehicle_category"
+    t.string "vehicle_model"
+    t.string "vehicle_condition"
+    t.date "vehicle_registration_date"
+    t.string "vehicle_engine"
+    t.string "vehicle_power"
+    t.string "vehicle_drive_type"
+    t.string "vehicle_fuel_type"
+    t.string "vehicle_doors"
+    t.string "vehicle_color"
+    t.string "vehicle_interior_type"
+    t.string "vehicle_airbags"
+    t.string "vehicle_euroclass"
+    t.decimal "vehicle_price"
+    t.text "vehicle_life_cycle"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "image"
   end
 
 end

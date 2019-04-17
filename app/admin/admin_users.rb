@@ -5,8 +5,13 @@ ActiveAdmin.register AdminUser do
     selectable_column
     id_column
     column :email
-    column :superadmin
+    #column :superadmin
     column :created_at
+    if superadmin?
+      toggle_bool_column :superadmin
+    else
+      column :superadmin
+    end
     #column :current_sign_in_at
     #column :sign_in_count
     if superadmin?

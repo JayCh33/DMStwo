@@ -1,6 +1,6 @@
 class Product < ApplicationRecord
 
-  before_destroy :ensure_not_referenced_by_any_line_item
+  #before_destroy :ensure_not_referenced_by_any_line_item
   #accepts_nested_attributes_for :image, :allow_destroy => true
   mount_uploader :image, ImageUploader
   validates :name, :description, :category, :image, presence: true
