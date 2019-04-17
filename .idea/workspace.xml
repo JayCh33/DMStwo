@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8803e1b-4793-4897-a6ca-cf8e3deb0afb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dmstwo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dmstwo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/admin_users.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/admin_users.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/clients.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/clients.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/products.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/products.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/active_admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/active_admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/active_admin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/active_admin.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/product.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/product.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-    </list>
+    <list default="true" id="d8803e1b-4793-4897-a6ca-cf8e3deb0afb" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/log/" />
@@ -173,8 +159,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="184" />
-    <option name="y" value="9" />
+    <option name="x" value="182" />
     <option name="width" value="1231" />
     <option name="height" value="1047" />
   </component>
@@ -377,7 +362,7 @@
       <workItem from="1554893653487" duration="2598000" />
       <workItem from="1554901211642" duration="6252000" />
       <workItem from="1555354239926" duration="851000" />
-      <workItem from="1555436691186" duration="13741000" />
+      <workItem from="1555436691186" duration="14095000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed seed Admin_user.superadmin&#10;Fixed Yarn error">
       <created>1553705869827</created>
@@ -449,14 +434,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555354472636</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="v0.6 (New form style)">
+      <created>1555505570571</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1555505570571</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115679000" />
+    <option name="totallyTimeSpent" value="116033000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-128" y="0" width="1231" height="1047" extended-state="0" />
+    <frame x="184" y="9" width="1231" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37830913" />
@@ -513,7 +505,8 @@
     <MESSAGE value="v0.5.1 (Product quantity in index)" />
     <MESSAGE value="v0.5.2 (adminuser accesses fixes)" />
     <MESSAGE value="v0.5.3 (Gemfile fixes)" />
-    <option name="LAST_COMMIT_MESSAGE" value="v0.5.3 (Gemfile fixes)" />
+    <MESSAGE value="v0.6 (New form style)" />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.6 (New form style)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/db/migrate/20190326153245_add_superadmin_to_adminusers.rb">
