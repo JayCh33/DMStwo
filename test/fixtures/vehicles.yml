@@ -1,0 +1,37 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  vehicle_make: MyString
+  vehicle_category: MyString
+  vehicle_model: MyString
+  vehicle_condition: MyString
+  vehicle_registration_date: 2019-04-16
+  vehicle_engine: MyString
+  vehicle_power: MyString
+  vehicle_drive_type: MyString
+  vehicle_fuel_type: MyString
+  vehicle_doors: 
+  vehicle_color: MyString
+  vehicle_interior_type: MyString
+  vehicle_airbags: 
+  vehicle_euroclass: MyString
+  vehicle_price: 1
+  vehicle_life_cycle: MyText
+
+two:
+  vehicle_make: MyString
+  vehicle_category: MyString
+  vehicle_model: MyString
+  vehicle_condition: MyString
+  vehicle_registration_date: 2019-04-16
+  vehicle_engine: MyString
+  vehicle_power: MyString
+  vehicle_drive_type: MyString
+  vehicle_fuel_type: MyString
+  vehicle_doors: 
+  vehicle_color: MyString
+  vehicle_interior_type: MyString
+  vehicle_airbags: 
+  vehicle_euroclass: MyString
+  vehicle_price: 1
+  vehicle_life_cycle: MyText

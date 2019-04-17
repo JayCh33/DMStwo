@@ -1,0 +1,97 @@
+<%= form_with(model: vehicle, local: true) do |form| %>
+  <% if vehicle.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(vehicle.errors.count, "error") %> prohibited this vehicle from being saved:</h2>
+
+      <ul>
+      <% vehicle.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :vehicle_make %>
+    <%= form.text_field :vehicle_make, id: :vehicle_vehicle_make %>
+  </div>
+
+  <div class="field">
+    <%= form.label :vehicle_category %>
+    <%= form.text_field :vehicle_category, id: :vehicle_vehicle_category %>
+  </div>
+
+  <div class="field">
+    <%= form.label :vehicle_model %>
+    <%= form.text_field :vehicle_model, id: :vehicle_vehicle_model %>
+  </div>
+
+  <div class="field">
+    <%= form.label :vehicle_condition %>
+    <%= form.text_field :vehicle_condition, id: :vehicle_vehicle_condition %>
+  </div>
+
+  <div class="field">
+    <%= form.label :vehicle_registration_date %>
+    <%= form.date_select :vehicle_registration_date, id: :vehicle_vehicle_registration_date %>
+  </div>
+
+  <div class="field">
+    <%= form.label :vehicle_engine %>
+    <%= form.text_field :vehicle_engine, id: :vehicle_vehicle_engine %>
+  </div>
+
+  <div class="field">
+    <%= form.label :vehicle_power %>
+    <%= form.text_field :vehicle_power, id: :vehicle_vehicle_power %>
+  </div>
+
+  <div class="field">
+    <%= form.label :vehicle_drive_type %>
+    <%= form.text_field :vehicle_drive_type, id: :vehicle_vehicle_drive_type %>
+  </div>
+
+  <div class="field">
+    <%= form.label :vehicle_fuel_type %>
+    <%= form.text_field :vehicle_fuel_type, id: :vehicle_vehicle_fuel_type %>
+  </div>
+
+  <div class="field">
+    <%= form.label :vehicle_doors %>
+    <%= form.text_field :vehicle_doors, id: :vehicle_vehicle_doors %>
+  </div>
+
+  <div class="field">
+    <%= form.label :vehicle_color %>
+    <%= form.text_field :vehicle_color, id: :vehicle_vehicle_color %>
+  </div>
+
+  <div class="field">
+    <%= form.label :vehicle_interior_type %>
+    <%= form.text_field :vehicle_interior_type, id: :vehicle_vehicle_interior_type %>
+  </div>
+
+  <div class="field">
+    <%= form.label :vehicle_airbags %>
+    <%= form.text_field :vehicle_airbags, id: :vehicle_vehicle_airbags %>
+  </div>
+
+  <div class="field">
+    <%= form.label :vehicle_euroclass %>
+    <%= form.text_field :vehicle_euroclass, id: :vehicle_vehicle_euroclass %>
+  </div>
+
+  <div class="field">
+    <%= form.label :vehicle_price %>
+    <%= form.number_field :vehicle_price, id: :vehicle_vehicle_price %>
+  </div>
+
+  <div class="field">
+    <%= form.label :vehicle_life_cycle %>
+    <%= form.text_area :vehicle_life_cycle, id: :vehicle_vehicle_life_cycle %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
