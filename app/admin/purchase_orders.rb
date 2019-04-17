@@ -14,6 +14,14 @@ ActiveAdmin.register PurchaseOrder do
     f.actions
   end
 
+  index do
+    id_column
+    column :supplier
+    column :products_list
+    column :eta
+    toggle_bool_column :completed
+    actions
+  end
 
 
 
