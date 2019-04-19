@@ -42,7 +42,14 @@ ActiveAdmin.register AdminUser do
     attributes_table do
       row :email
       row :superadmin
+      if superadmin?
+        attributes_table :title =>"Admin User Log Details" do
+          row :created_at
+          row :updated_at
+        end
+      end
     end
+
     active_admin_comments
   end
 

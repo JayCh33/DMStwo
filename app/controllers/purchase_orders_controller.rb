@@ -5,7 +5,7 @@ class PurchaseOrdersController < InheritedResources::Base
   private
 
     def purchase_order_params
-      params.require(:purchase_order).permit(:supplier_id, :products_list, :eta, :completed)
+      params.require(:purchase_order).permit(:supplier_id, :order_details, :eta, :completed)
     end
 
 end

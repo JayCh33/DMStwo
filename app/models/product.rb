@@ -1,5 +1,4 @@
 class Product < ApplicationRecord
-
   #before_destroy :ensure_not_referenced_by_any_line_item
   #accepts_nested_attributes_for :image, :allow_destroy => true
   mount_uploader :image, ImageUploader
@@ -13,4 +12,7 @@ class Product < ApplicationRecord
   validates :price, numericality: {greater_than_or_equal_to: 0.01}
 
 
+  #many-to-many
+  has_and_belongs_to_many :purchase_orders, join_table: :line_products
+  accepts_nested_attributes_for :purchase_orders
 end

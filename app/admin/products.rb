@@ -1,5 +1,6 @@
 ActiveAdmin.register Product do
-  permit_params :name, :image, :description, :category, :price, :quantity
+  permit_params :name, :image, :description, :category, :price, :quantity,
+                purchase_order_ids: []
 
   form do |f|
     f.inputs do
@@ -29,7 +30,12 @@ ActiveAdmin.register Product do
       row :image do |ad|
         image_tag ad.image.medium
       end
+      attributes_table :title =>"Product Log Details" do
+        row :created_at
+        row :updated_at
+      end
     end
+
     active_admin_comments
   end
 
