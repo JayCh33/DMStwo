@@ -4,8 +4,10 @@ ActiveAdmin.register ServiceAppointment do
   form do |f|
     f.inputs do
       f.input :title, label: "Service appointment title: "
-      f.input :start_time, start_year: Date.today.year, label: "Service starting at: "
-      f.input :end_time, start_year: Date.today.year, label: "Service estimated to be fineshed at: "
+      f.input :start_time, as: :date_time_picker
+      f.input :end_time,   as: :date_time_picker
+      #f.input :start_time,as: :datetimepicker, start_year: Date.today.year, label: "Service starting at: "
+      #f.input :end_time, start_year: Date.today.year, label: "Service estimated to be fineshed at: "
       f.input :client, label: "Client: "
       f.input :appointment_details,:input_html => {'rows' => 5}
       #f.input :completed
@@ -24,8 +26,8 @@ ActiveAdmin.register ServiceAppointment do
 
   filter :client
   filter :title
-  filter :start_time
-  filter :end_time
+  filter :start_time#, as: :date_time_range
+  filter :end_time#, as: :date_time_range
   filter :appointment_details
 
 end
