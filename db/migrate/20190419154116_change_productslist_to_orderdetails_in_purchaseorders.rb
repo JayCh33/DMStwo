@@ -1,6 +1,8 @@
 class ChangeProductslistToOrderdetailsInPurchaseorders < ActiveRecord::Migration[5.1]
   def up
-    rename_column :purchase_orders, :products_list, :order_details
+    change_table :purchase_orders do |t|
+      t.rename :products_list, :order_details
+    end
   end
 
   def down
