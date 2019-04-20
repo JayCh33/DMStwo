@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8803e1b-4793-4897-a6ca-cf8e3deb0afb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dmstwo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dmstwo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/admin_users.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/admin_users.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/products.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/products.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/purchase_orders.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/purchase_orders.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/vehicles.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/vehicles.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/purchase_orders_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/purchase_orders_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/product.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/product.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/purchase_order.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/purchase_order.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -63,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/admin/vehicles.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="101" column="27" selection-start-line="101" selection-start-column="27" selection-end-line="101" selection-end-column="27" />
+            <state relative-caret-position="1377">
+              <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -159,41 +147,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="dmstwo-v0.6.5-Copy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dmstwo-v0.6.5-Copy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dmstwo-v0.6.5-Copy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dmstwo-v0.6.5-Copy" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dmstwo-v0.6.5-Copy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dmstwo-v0.6.5-Copy" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dmstwo-v0.6.5-Copy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dmstwo-v0.6.5-Copy" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dmstwo-v0.6.5-Copy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dmstwo-v0.6.5-Copy" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="migrate" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -353,6 +309,7 @@
       <workItem from="1555354239926" duration="851000" />
       <workItem from="1555436691186" duration="16923000" />
       <workItem from="1555688272040" duration="8892000" />
+      <workItem from="1555697904231" duration="123000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed seed Admin_user.superadmin&#10;Fixed Yarn error">
       <created>1553705869827</created>
@@ -452,17 +409,24 @@
       <option name="project" value="LOCAL" />
       <updated>1555513971987</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="v0.6.5 (ProductAddedToPurchaseOrders)">
+      <created>1555697953056</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1555697953056</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127753000" />
+    <option name="totallyTimeSpent" value="127876000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
+    <frame x="182" y="0" width="1231" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36547813" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37233135" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -519,7 +483,8 @@
     <MESSAGE value="v0.6 (New form style)" />
     <MESSAGE value="v0.6 (New form style, Vehicle section added)" />
     <MESSAGE value="v0.6.1 (Completed selection in PurchasedOrders index)" />
-    <option name="LAST_COMMIT_MESSAGE" value="v0.6.1 (Completed selection in PurchasedOrders index)" />
+    <MESSAGE value="v0.6.5 (ProductAddedToPurchaseOrders)" />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.6.5 (ProductAddedToPurchaseOrders)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/db/migrate/20190326130537_create_suppliers.rb">
@@ -849,8 +814,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/vehicles.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="101" column="27" selection-start-line="101" selection-start-column="27" selection-end-line="101" selection-end-column="27" />
+        <state relative-caret-position="1377">
+          <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
         </state>
       </provider>
     </entry>
