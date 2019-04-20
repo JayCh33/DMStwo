@@ -40,12 +40,10 @@ ActiveAdmin.register Vehicle do
               prompt: 'Select fuel type'
       f.input :vehicle_doors, collection: ['2-3 Doors', '4-5 Doors', '6-7 Doors', 'Other'],
               prompt: 'Select number of doors'
-      f.input :vehicle_color, as: :color_picker
-      #f.input :vehicle_color, collection: ['Beige','Black','Blue','Bordeaux','Brown','Chromium','Dark Green',
-      #                                     'Dark Red','Dark Blue','Gold','Green','Grey','Lemon','Light Blue',
-      #                                     'Orange','Ping','Purple-Violet','Red','Silver','White','Yellow',
-      #                                     'Other'],
-      #        prompt: 'Select color'
+      f.input :vehicle_color, as: :select, collection: ['Beige','Black','Blue','Bordeaux','Brown','Chromium','Dark Green',
+                                           'Dark Red','Dark Blue','Gold','Green','Grey','Lemon','Light Blue',
+                                           'Orange','Ping','Purple-Violet','Red','Silver','White','Yellow',
+                                           'Other']
       f.input :vehicle_interior_type, collection: ['Alcantar','Full leather','Part leather',
                                                    'Velour','Leatherette','Cloth','Other'],
               prompt: 'Select interior type'

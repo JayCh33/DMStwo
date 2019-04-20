@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d8803e1b-4793-4897-a6ca-cf8e3deb0afb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/admin_users.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/admin_users.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/clients.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/clients.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/products.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/products.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/purchase_orders.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/purchase_orders.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/suppliers.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/suppliers.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/admin/vehicles.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/vehicles.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -58,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/app/admin/service_appointments.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
-              <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -66,22 +61,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/admin/products.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/admin/vehicles.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="815">
-              <caret line="105" column="40" selection-start-line="105" selection-start-column="40" selection-end-line="105" selection-end-column="40" />
+            <state relative-caret-position="918">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/admin/vehicles.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="628">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/admin/suppliers.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="629">
@@ -162,14 +157,15 @@
         <option value="$PROJECT_DIR$/app/admin/clients.rb" />
         <option value="$PROJECT_DIR$/app/admin/admin_users.rb" />
         <option value="$PROJECT_DIR$/app/admin/purchase_orders.rb" />
-        <option value="$PROJECT_DIR$/app/admin/vehicles.rb" />
         <option value="$PROJECT_DIR$/app/admin/suppliers.rb" />
+        <option value="$PROJECT_DIR$/app/admin/vehicles.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1097" />
+    <option name="x" value="-8" />
+    <option name="y" value="2" />
+    <option name="width" value="1231" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -184,50 +180,15 @@
         <subPane>
           <expand>
             <path>
-              <item name="dmstwo-v0.6.5.1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dmstwo-v0.6.5.1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dmstwo-v0.6.5.1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dmstwo-v0.6.5.1" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dmstwo-v0.6.5.1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dmstwo-v0.6.5.1" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dmstwo-v0.6.5.1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dmstwo-v0.6.5.1" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dmstwo-v0.6.5.1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dmstwo-v0.6.5.1" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dmstwo-v0.6.5.1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dmstwo-v0.6.5.1" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dmstwo-v0.6.5.1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dmstwo-v0.6.5.1" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="migrate" type="462c0819:PsiDirectoryNode" />
+              <item name="dmstwo-v0.7-Copy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dmstwo-v0.7-Copy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -391,6 +352,7 @@
       <workItem from="1555720596314" duration="706000" />
       <workItem from="1555754594738" duration="4199000" />
       <workItem from="1555767455934" duration="4238000" />
+      <workItem from="1555772850545" duration="652000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed seed Admin_user.superadmin&#10;Fixed Yarn error">
       <created>1553705869827</created>
@@ -543,13 +505,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137019000" />
+    <option name="totallyTimeSpent" value="137671000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1097" height="1047" extended-state="0" />
+    <frame x="-8" y="2" width="1231" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.44358727" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.45175064" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -915,21 +877,14 @@
     <entry file="file://$PROJECT_DIR$/app/admin/service_appointments.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
-          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/products.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/vehicles.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="815">
-          <caret line="105" column="40" selection-start-line="105" selection-start-column="40" selection-end-line="105" selection-end-column="40" />
+        <state relative-caret-position="918">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
@@ -937,6 +892,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/vehicles.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
