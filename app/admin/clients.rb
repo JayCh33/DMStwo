@@ -36,4 +36,15 @@ ActiveAdmin.register Client do
     actions
   end
 
+  filter :name, :as => :select
+  filter :country, :as => :select
+  filter :city, :as => :select
+  filter :address, :as => :select
+  filter :postal_code, :as => :select
+  filter :email, :as => :select
+  filter :phone, :as => :select
+  filter :vehicle_registration_plate, :as => :select
+  filter :vehicle_brand, :as => :select
+  filter :vehicle_model, :as => :select
+
 end

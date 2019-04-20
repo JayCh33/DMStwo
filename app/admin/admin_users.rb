@@ -19,10 +19,9 @@ ActiveAdmin.register AdminUser do
     end
   end
 
-  filter :email
-  filter :current_sign_in_at
-  filter :superadmin
+  filter :email, :as => :select
   filter :created_at
+  filter :superadmin, :as => :check_boxes
 
   form do |f|
     if (f.object == current_admin_user) | superadmin?

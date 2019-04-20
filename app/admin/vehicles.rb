@@ -99,4 +99,21 @@ ActiveAdmin.register Vehicle do
     end
     active_admin_comments
   end
+
+  filter :vehicle_make, as: :select
+  filter :vehicle_category, as: :select
+  filter :vehicle_model, as: :select
+  filter :vehicle_condition, as: :select
+  filter :vehicle_color, as: :select
+  filter :vehicle_registration_date
+  filter :vehicle_engine, as: :select
+  filter :vehicle_power, as: :select
+  filter :vehicle_drive_type, as: :select
+  filter :vehicle_fuel_type, as: :select
+  filter :vehicle_doors, as: :select
+
+  filter :vehicle_interior_type, as: :select
+  filter :vehicle_airbags, as: :select
+  filter :vehicle_euroclass, as: :select
+  filter :vehicle_price, as: :numeric_range_filter
 end

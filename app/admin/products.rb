@@ -52,6 +52,13 @@ ActiveAdmin.register Product do
 
     actions
   end
+
+  filter :name, :as => :select
+  filter :category, :as => :select
+  filter :description
+  filter :price, as: :numeric_range_filter
+  filter :quantity, as: :numeric_range_filter
+
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
 #

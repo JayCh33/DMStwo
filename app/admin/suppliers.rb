@@ -27,4 +27,13 @@ ActiveAdmin.register Supplier do
     column :email
     actions
   end
+
+  filter :name, as: :select
+  filter :country, as: :select
+  filter :city, as: :select
+  filter :address, as: :select
+  filter :postal_code, as: :select
+  filter :email, as: :select
+  filter :phone, as: :select
+  filter :company, as: :select
 end

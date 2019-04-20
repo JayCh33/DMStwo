@@ -40,4 +40,11 @@ ActiveAdmin.register PurchaseOrder do
     end
     active_admin_comments
   end
+
+  filter :supplier
+  filter :products
+  filter :eta
+  filter :order_details
+  filter :completed, as: :check_boxes
+
 end
