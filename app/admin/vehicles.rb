@@ -97,7 +97,6 @@ ActiveAdmin.register Vehicle do
       row :vehicle_price
       row :vehicle_life_cycle
     end
-
     active_admin_comments
   end
 end
