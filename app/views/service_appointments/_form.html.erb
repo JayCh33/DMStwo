@@ -12,11 +12,6 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :title %>
-    <%= form.text_field :title, id: :service_appointment_title %>
-  </div>
-
-  <div class="field">
     <%= form.label :start_time %>
     <%= form.datetime_select :start_time, id: :service_appointment_start_time %>
   </div>
@@ -32,8 +27,13 @@
   </div>
 
   <div class="field">
-    <%= form.label :client_id %>
-    <%= form.text_field :client_id, id: :service_appointment_client_id %>
+    <%= form.label :customer_id %>
+    <%= form.text_field :customer_id, id: :service_appointment_customer_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :completed %>
+    <%= form.check_box :completed, id: :service_appointment_completed %>
   </div>
 
   <div class="actions">

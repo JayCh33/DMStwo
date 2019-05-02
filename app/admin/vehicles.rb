@@ -1,24 +1,36 @@
 ActiveAdmin.register Vehicle do
-  permit_params :vehicle_make, :vehicle_category,
-                :vehicle_model, :vehicle_condition,
+  menu priority: 2
+
+  permit_params :vehicle_make, :vehicle_identification_number, :vehicle_registration_plate, :vehicle_type,
+                :vehicle_category, :vehicle_model, :vehicle_condition,
                 :vehicle_registration_date, :vehicle_engine,
                 :vehicle_power, :vehicle_drive_type, :vehicle_fuel_type,
                 :vehicle_doors, :vehicle_color, :vehicle_interior_type,
                 :vehicle_airbags, :vehicle_euroclass, :vehicle_price,
-                :vehicle_life_cycle, :image
+                :vehicle_life_cycle, :image, :customer_id
+
+  scope :all
+  scope :customer_vehicle
+  scope :curtesy_vehicle
+  scope :demo_vehicle
+  scope :inventory_vehicle
+  scope :vehicle_of_interest
 
   form do |f|
     f.inputs do
       f.input :image
+      f.input :vehicle_identification_number
+      f.input :vehicle_registration_plate
+      f.input :vehicle_type, collection: ['Customer vehicle','Curtesy vehicle', 'Demo vehicle',
+                                          'Inventory vehicle', 'Vehicle of interest']
+      f.input :customer
       f.input :vehicle_make, collection: ['Alfa Romeo', 'Audi', 'BMW','Citroen','Fiat',
                                           'Ford', 'Hyundai', 'Mercedes-Benz', 'Nissan', 'Opel',
-                                          'Peygeot', 'Renault', 'Seat' ,'Suzuki', 'Toyota' ,'Volkswagen'],
-          prompt: 'Select make'
+                                          'Peygeot', 'Renault', 'Seat' ,'Suzuki', 'Toyota' ,'Volkswagen']
+      f.input :vehicle_model
       f.input :vehicle_category, collection: ['Passenger','Jeep','SUV','Caravan',
                                               'Commercial Passenger','Roadster',
-                                              'Coupe sport','Van'],
-              prompt: 'Select category'
-      f.input :vehicle_model
+                                              'Coupe sport','Van']
       f.input :vehicle_condition, collection: ['New', 'Used'],
               prompt: 'Select condition'
       f.input :vehicle_registration_date, :start_year => 1970, :end_year => Time.now.year + 2
@@ -41,9 +53,9 @@ ActiveAdmin.register Vehicle do
       f.input :vehicle_doors, collection: ['2-3 Doors', '4-5 Doors', '6-7 Doors', 'Other'],
               prompt: 'Select number of doors'
       f.input :vehicle_color, as: :select, collection: ['Beige','Black','Blue','Bordeaux','Brown','Chromium','Dark Green',
-                                           'Dark Red','Dark Blue','Gold','Green','Grey','Lemon','Light Blue',
-                                           'Orange','Ping','Purple-Violet','Red','Silver','White','Yellow',
-                                           'Other']
+                                                        'Dark Red','Dark Blue','Gold','Green','Grey','Lemon','Light Blue',
+                                                        'Orange','Ping','Purple-Violet','Red','Silver','White','Yellow',
+                                                        'Other']
       f.input :vehicle_interior_type, collection: ['Alcantar','Full leather','Part leather',
                                                    'Velour','Leatherette','Cloth','Other'],
               prompt: 'Select interior type'
@@ -59,16 +71,15 @@ ActiveAdmin.register Vehicle do
   end
 
   index do
-    id_column
+    selectable_column
     column :image do |ad|
       image_tag ad.image.thumb
     end
+    column :vehicle_identification_number
+    column :vehicle_type
     column :vehicle_color
     column :vehicle_make
     column :vehicle_model
-    column :vehicle_condition
-    column :vehicle_engine
-    column :vehicle_power
     number_column :vehicle_price, as: :currency, unit: "€", separator: ","
     actions
   end
@@ -78,6 +89,9 @@ ActiveAdmin.register Vehicle do
       row :image do |ad|
         image_tag ad.image.medium
       end
+      row :vehicle_identification_number
+      row :vehicle_registration_plate
+      row :vehicle_type
       row :vehicle_make
       row :vehicle_category
       row :vehicle_model
@@ -92,12 +106,26 @@ ActiveAdmin.register Vehicle do
       row :vehicle_interior_type
       row :vehicle_airbags
       row :vehicle_euroclass
-      row :vehicle_price
+      number_row :vehicle_price, as: :currency, unit: "€", separator: ","
       row :vehicle_life_cycle
     end
     active_admin_comments
   end
 
+  sidebar 'Vehicle Registration Details', :only => :show do
+    table_for vehicle do
+      column :created_at do
+        vehicle.created_at
+      end
+    end
+    table_for vehicle do
+      column :updated_at do
+        vehicle.updated_at
+      end
+    end
+  end
+
+  filter :customer, as: :select
   filter :vehicle_make, as: :select
   filter :vehicle_category, as: :select
   filter :vehicle_model, as: :select
@@ -109,7 +137,6 @@ ActiveAdmin.register Vehicle do
   filter :vehicle_drive_type, as: :select
   filter :vehicle_fuel_type, as: :select
   filter :vehicle_doors, as: :select
-
   filter :vehicle_interior_type, as: :select
   filter :vehicle_airbags, as: :select
   filter :vehicle_euroclass, as: :select

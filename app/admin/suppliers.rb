@@ -1,4 +1,6 @@
 ActiveAdmin.register Supplier do
+  menu priority: 7
+
   permit_params :name, :country, :city, :address, :postal_code,
                 :email, :phone, :company, :company_details,
                 :bank_details
@@ -21,11 +23,24 @@ ActiveAdmin.register Supplier do
   end
 
   index do
-    id_column
+    selectable_column
     column :name
     column :country
     column :email
     actions
+  end
+
+  sidebar 'Supplier Registration Details', :only => :show do
+    table_for supplier do
+      column :created_at do
+        supplier.created_at
+      end
+    end
+    table_for supplier do
+      column :updated_at do
+        supplier.updated_at
+      end
+    end
   end
 
   filter :name, as: :select

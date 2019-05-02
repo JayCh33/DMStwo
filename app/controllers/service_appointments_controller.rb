@@ -4,7 +4,9 @@ class ServiceAppointmentsController < InheritedResources::Base
   private
 
     def service_appointment_params
-      params.require(:service_appointment).permit(:title, :start_time, :end_time, :appointment_details, :client_id)
+      params.require(:service_appointment).permit(:start_time, :end_time,
+                                                  :appointment_details, :customer_id,
+                                                  :completed)
     end
 
 end

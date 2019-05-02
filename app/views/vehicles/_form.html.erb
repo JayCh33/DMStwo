@@ -83,12 +83,32 @@
 
   <div class="field">
     <%= form.label :vehicle_price %>
-    <%= form.number_field :vehicle_price, id: :vehicle_vehicle_price %>
+    <%= form.text_field :vehicle_price, id: :vehicle_vehicle_price %>
   </div>
 
   <div class="field">
     <%= form.label :vehicle_life_cycle %>
     <%= form.text_area :vehicle_life_cycle, id: :vehicle_vehicle_life_cycle %>
+  </div>
+
+  <div class="field">
+    <%= form.label :image %>
+    <%= form.text_field :image, id: :vehicle_image %>
+  </div>
+
+  <div class="field">
+    <%= form.label :vehicle_type %>
+    <%= form.text_field :vehicle_type, id: :vehicle_vehicle_type %>
+  </div>
+
+  <div class="field">
+    <%= form.label :vehicle_identification_number %>
+    <%= form.text_field :vehicle_identification_number, id: :vehicle_vehicle_identification_number %>
+  </div>
+
+  <div class="field">
+    <%= form.label :vehicle_registration_plate %>
+    <%= form.text_field :vehicle_registration_plate, id: :vehicle_vehicle_registration_plate %>
   </div>
 
   <div class="actions">

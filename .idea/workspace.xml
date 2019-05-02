@@ -1,12 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8803e1b-4793-4897-a6ca-cf8e3deb0afb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dmstwo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dmstwo.iml" afterDir="false" />
+    <list default="true" id="d8803e1b-4793-4897-a6ca-cf8e3deb0afb" name="Default Changelist" comment="v0.8 (User Friendly Theme Addition)">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/active_admin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/active_admin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/admin_users.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/admin_users.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/clients.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/dashboard.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/dashboard.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/products.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/purchase_orders.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/purchase_orders.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/service_appointments.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/suppliers.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/suppliers.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/vehicles.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/clients.coffee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/products.coffee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/clients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/products.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/service_appointments.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/service_appointments.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/clients_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/products_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/service_appointments_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/service_appointments_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/vehicles_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/vehicles_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/decorators/client_decorator.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/clients_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/products_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/client.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/line_product.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/product.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/purchase_order.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/purchase_order.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/service_appointment.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/service_appointment.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/vehicle.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/vehicle.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/clients/_client.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/clients/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/clients/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/clients/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/clients/index.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/clients/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/clients/show.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/clients/show.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/products/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/products/_product.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/products/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/products/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/products/index.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/products/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/products/show.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/products/show.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/service_appointments/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/service_appointments/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/service_appointments/_service_appointment.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/service_appointments/_service_appointment.json.jbuilder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/service_appointments/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/service_appointments/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/service_appointments/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/service_appointments/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/vehicles/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/vehicles/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/vehicles/_vehicle.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/vehicles/_vehicle.json.jbuilder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/vehicles/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/vehicles/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/vehicles/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/vehicles/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20190207135419_create_products.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20190327121917_create_clients.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20190327124617_create_service_appointments.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20190416185011_create_vehicles.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20190417095436_change_doors_and_airbags_to_string_in_vehicles.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20190417104341_add_image_to_vehicle.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20190419153954_create_line_products.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/product/image/5/IMG_0612.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/product/image/5/large_IMG_0612.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/product/image/5/medium_IMG_0612.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/product/image/5/small_IMG_0612.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/product/image/5/thumb_IMG_0612.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/vehicle/image/1/fiesta.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/vehicle/image/1/large_fiesta.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/vehicle/image/1/medium_fiesta.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/vehicle/image/1/small_fiesta.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/vehicle/image/1/thumb_fiesta.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/clients_controller_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/products_controller_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/service_appointments_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/service_appointments_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/vehicles_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/vehicles_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/decorators/client_decorator_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/clients.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/line_products.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/products.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/service_appointments.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/service_appointments.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/vehicles.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/vehicles.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/client_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/line_product_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/product_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/system/clients_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/system/products_test.rb" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -45,13 +128,39 @@
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="development" type="feb32156:DbDataSourceImpl" />
-        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="development [2]" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="development [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="development [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
       </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/admin/vehicles.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -59,13 +168,24 @@
       <find>order</find>
       <find>webpacker</find>
       <find>config.authorization_adapter = ActiveAdmin::CanCanAdapter</find>
-      <find>product</find>
-      <find>Product</find>
       <find>:</find>
       <find>sass-rails</find>
       <find>activeadmin_addons</find>
       <find>sass-r</find>
       <find>product_list</find>
+      <find>prio</find>
+      <find>title</find>
+      <find>Product</find>
+      <find>name</find>
+      <find>category</find>
+      <find>product</find>
+      <find>description</find>
+      <find>part_part</find>
+      <find>price</find>
+      <find>vehicle</find>
+      <find>service_appointment</find>
+      <find>client</find>
+      <find>Client</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -74,64 +194,64 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/helpers/active_admin/views_helper.rb" />
-        <option value="$PROJECT_DIR$/app/models/order.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/orders_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/ability.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20190327103247_remove_admin_user_from_meetings.rb" />
-        <option value="$PROJECT_DIR$/app/models/meeting.rb" />
-        <option value="$PROJECT_DIR$/app/views/meetings/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/meetings/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/meetings/_form.html.erb" />
-        <option value="$PROJECT_DIR$/db/migrate/20190326153245_add_superadmin_to_adminusers.rb" />
-        <option value="$PROJECT_DIR$/db/schema.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/meetings_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/products_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/suppliers_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/clients_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/client.rb" />
-        <option value="$PROJECT_DIR$/app/admin/meetings.rb" />
         <option value="$PROJECT_DIR$/app/models/admin_user.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/service_appointments_controller.rb" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/db/seeds.rb" />
-        <option value="$PROJECT_DIR$/app/admin/dashboard.rb" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/config/initializers/active_admin.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20190416185322_change_price_to_be_decimal_in_vehicles.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20190416185011_create_vehicles.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20190417095436_change_doors_and_airbags_to_string_in_vehicles.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20190417104341_add_image_to_vehicle.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/vehicles_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/vehicle.rb" />
         <option value="$PROJECT_DIR$/Gemfile.lock" />
-        <option value="$PROJECT_DIR$/app/models/line_product.rb" />
         <option value="$PROJECT_DIR$/app/controllers/purchase_orders_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/product.rb" />
-        <option value="$PROJECT_DIR$/app/models/purchase_order.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20190419154116_change_productslist_to_orderdetails_in_purchaseorders.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20190419153954_create_line_products.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/active_admin.js" />
-        <option value="$PROJECT_DIR$/app/admin/service_appointments.rb" />
-        <option value="$PROJECT_DIR$/app/admin/products.rb" />
-        <option value="$PROJECT_DIR$/app/admin/clients.rb" />
-        <option value="$PROJECT_DIR$/app/admin/admin_users.rb" />
-        <option value="$PROJECT_DIR$/app/admin/purchase_orders.rb" />
-        <option value="$PROJECT_DIR$/app/admin/suppliers.rb" />
-        <option value="$PROJECT_DIR$/app/admin/vehicles.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/active_admin.scss" />
+        <option value="$PROJECT_DIR$/db/migrate/20190430125751_add_types_to_vehicles.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20190430130216_add_vehicles_to_clients.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20190430130026_add_vin_to_vehicles.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20190430135607_add_vin_and_plate_to_vehicles.rb" />
+        <option value="$PROJECT_DIR$/app/admin/dashboard.rb" />
+        <option value="$PROJECT_DIR$/app/admin/products.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20190430200642_remove_vehicle_from_clients.rb" />
+        <option value="$PROJECT_DIR$/app/models/client.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20190501123352_remove_title_and_add_complete_status_to_serviceappointments.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20190419153954_create_line_products.rb" />
+        <option value="$PROJECT_DIR$/app/models/line_product.rb" />
+        <option value="$PROJECT_DIR$/app/models/product.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20190501171645_create_parts.rb" />
+        <option value="$PROJECT_DIR$/app/models/part.rb" />
+        <option value="$PROJECT_DIR$/app/admin/admin_users.rb" />
+        <option value="$PROJECT_DIR$/db/seeds.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/clients_controller.rb" />
+        <option value="$PROJECT_DIR$/app/admin/clients.rb" />
+        <option value="$PROJECT_DIR$/app/admin/parts.rb" />
+        <option value="$PROJECT_DIR$/app/admin/suppliers.rb" />
+        <option value="$PROJECT_DIR$/app/admin/purchase_orders.rb" />
+        <option value="$PROJECT_DIR$/app/models/purchase_order.rb" />
+        <option value="$PROJECT_DIR$/app/admin/customers.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/customers_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/parts_controller.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20190327124617_create_service_appointments.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20190502105448_change_client_to_customer_in_serviceappointments.rb" />
+        <option value="$PROJECT_DIR$/app/models/customer.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/service_appointments_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/service_appointment.rb" />
+        <option value="$PROJECT_DIR$/app/admin/service_appointments.rb" />
+        <option value="$PROJECT_DIR$/db/schema.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/vehicles_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/vehicle.rb" />
+        <option value="$PROJECT_DIR$/app/admin/vehicles.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1224" />
-    <option name="y" value="20" />
-    <option name="width" value="1231" />
+    <option name="x" value="39" />
+    <option name="y" value="23" />
+    <option name="width" value="1871" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -142,42 +262,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="dmstwo-v0.8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dmstwo-v0.8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dmstwo-v0.8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dmstwo-v0.8" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dmstwo-v0.8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dmstwo-v0.8" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dmstwo-v0.8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dmstwo-v0.8" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+              <item name="dmstwo-v0.11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dmstwo-v0.11" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -337,7 +440,17 @@
       <workItem from="1555754594738" duration="4199000" />
       <workItem from="1555767455934" duration="4238000" />
       <workItem from="1555772850545" duration="900000" />
-      <workItem from="1555778593749" duration="244000" />
+      <workItem from="1555778593749" duration="1149000" />
+      <workItem from="1555780429732" duration="178000" />
+      <workItem from="1555780828952" duration="18000" />
+      <workItem from="1555780941067" duration="2368000" />
+      <workItem from="1556628987097" duration="7149000" />
+      <workItem from="1556711096423" duration="10798000" />
+      <workItem from="1556729532931" duration="3566000" />
+      <workItem from="1556787904385" duration="4467000" />
+      <workItem from="1556793005571" duration="7029000" />
+      <workItem from="1556801549848" duration="6000" />
+      <workItem from="1556801626721" duration="96000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed seed Admin_user.superadmin&#10;Fixed Yarn error">
       <created>1553705869827</created>
@@ -493,21 +606,28 @@
       <option name="project" value="LOCAL" />
       <updated>1555774992062</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="v0.8 (User Friendly Theme Addition)">
+      <created>1555778869840</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1555778869840</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138163000" />
+    <option name="totallyTimeSpent" value="184005000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1224" y="20" width="1231" height="1047" extended-state="0" />
+    <frame x="39" y="23" width="1871" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4594364" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3771397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32932165" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49918962" visible="true" weight="0.32932165" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49918962" weight="0.32932165" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -516,33 +636,13 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49918962" weight="0.32932165" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5008104" side_tool="true" weight="0.32932165" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.5008104" side_tool="true" visible="true" weight="0.32932165" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.32932165" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3298217" />
+      <window_info anchor="right" id="Database" order="3" weight="0.14080618" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33333334" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32932165" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32932165" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32932165" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3298217" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -563,81 +663,160 @@
     <MESSAGE value="v0.6.5 (ProductAddedToPurchaseOrders-Migration_fix_for_heroku)" />
     <MESSAGE value="v0.7 (Fixed calendar in service appointments)" />
     <MESSAGE value="v0.7 (Replaced ColorPalette with ColorSelection)" />
-    <option name="LAST_COMMIT_MESSAGE" value="v0.7 (Replaced ColorPalette with ColorSelection)" />
+    <MESSAGE value="v0.8 (User Friendly Theme Addition)" />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.8 (User Friendly Theme Addition)" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/service_appointment.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190430130216_add_vehicles_to_clients.rb" />
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190430130026_add_vin_to_vehicles.rb" />
+    <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190430125751_add_types_to_vehicles.rb" />
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190430135607_add_vin_and_plate_to_vehicles.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/meetings.rb" />
-    <entry file="file://$PROJECT_DIR$/app/models/meeting.rb" />
-    <entry file="file://$PROJECT_DIR$/app/models/ability.rb">
+    <entry file="file://$PROJECT_DIR$/config/initializers/active_admin.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-419">
+          <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/supplier.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190430200642_remove_vehicle_from_clients.rb" />
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190321121249_create_active_admin_comments.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190419153954_create_line_products.rb" />
+    <entry file="file://$PROJECT_DIR$/app/models/line_product.rb" />
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190207135419_create_products.rb" />
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190501171645_create_parts.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/product.rb" />
+    <entry file="file://$PROJECT_DIR$/app/models/part.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/products.rb" />
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190326130945_create_purchase_orders.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/admin_user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="68">
-            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/RailsInstaller/Ruby2.3.3/lib/ruby/2.3.0/un.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="342" column="4" selection-start-line="342" selection-start-column="4" selection-end-line="342" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-8a597c4370b4/lib/active_admin.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-290">
-          <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/admin/admin_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/dashboard.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="41" />
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/parts.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="65" column="7" lean-forward="true" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/purchase_orders.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/purchase_order.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="7" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190416185011_create_vehicles.rb" />
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190327121917_create_clients.rb" />
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190430201556_add_client_to_vehicles.rb" />
+    <entry file="file://$PROJECT_DIR$/app/admin/customers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="802">
+          <caret line="78" column="25" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/clients_controller.rb" />
+    <entry file="file://$PROJECT_DIR$/app/controllers/parts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/purchase_orders_controller.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/client.rb" />
+    <entry file="file://$PROJECT_DIR$/app/admin/clients.rb" />
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190327124617_create_service_appointments.rb" />
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190502104220_add_customer_to_vehicles.rb" />
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190501123352_remove_title_and_add_complete_status_to_serviceappointments.rb" />
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190502105448_change_client_to_customer_in_serviceappointments.rb" />
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190502111712_create_service_appointments.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/service_appointment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/suppliers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="27" lean-forward="true" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/customer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/customers_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -648,74 +827,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/suppliers_controller.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190419154116_change_productslist_to_orderdetails_in_purchaseorders.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="85">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/active_admin.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190327121917_create_clients.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190416185322_change_price_to_be_decimal_in_vehicles.rb" />
-    <entry file="file://$PROJECT_DIR$/app/models/client.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/clients_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190207135419_create_products.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190417095436_change_doors_and_airbags_to_string_in_vehicles.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190502113841_create_vehicles.rb" />
     <entry file="file://$PROJECT_DIR$/app/models/vehicle.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="27" selection-end-line="27" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://331e7040-a3c8-4b3b-9094-141d48d0b34a/schema/main/table/sqlite_master">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -726,171 +856,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/uploaders/image_uploader.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/activeadmin_addons.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/line_product.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/products_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/purchase_order.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/purchase_orders_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/product.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190502114032_create_vehicles.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190419153954_create_line_products.rb">
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190419154116_change_productslist_to_orderdetails_in_purchaseorders.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190417104341_add_image_to_vehicle.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190326153245_add_superadmin_to_adminusers.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190416185011_create_vehicles.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190327124617_create_service_appointments.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/active_admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-667" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/dashboard.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/admin_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/clients.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/purchase_orders.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+        <state relative-caret-position="697">
+          <caret line="196" column="20" selection-start-line="196" selection-start-column="20" selection-end-line="196" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/service_appointments.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/products.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="829">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="782">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/vehicles.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="829">
-          <caret line="97" column="25" selection-start-line="97" selection-start-column="25" selection-end-line="97" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/suppliers.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/active_admin.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="540">
+          <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
         </state>
       </provider>
     </entry>

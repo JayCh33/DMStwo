@@ -17,7 +17,7 @@ class ServiceAppointmentsControllerTest < ActionDispatch::IntegrationTest
 
   test "should create service_appointment" do
     assert_difference('ServiceAppointment.count') do
-      post service_appointments_url, params: { service_appointment: { appointment_details: @service_appointment.appointment_details, client_id: @service_appointment.client_id, end_time: @service_appointment.end_time, start_time: @service_appointment.start_time, title: @service_appointment.title } }
+      post service_appointments_url, params: { service_appointment: { appointment_details: @service_appointment.appointment_details, completed: @service_appointment.completed, customer_id: @service_appointment.customer_id, end_time: @service_appointment.end_time, start_time: @service_appointment.start_time } }
     end
 
     assert_redirected_to service_appointment_url(ServiceAppointment.last)
@@ -34,7 +34,7 @@ class ServiceAppointmentsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update service_appointment" do
-    patch service_appointment_url(@service_appointment), params: { service_appointment: { appointment_details: @service_appointment.appointment_details, client_id: @service_appointment.client_id, end_time: @service_appointment.end_time, start_time: @service_appointment.start_time, title: @service_appointment.title } }
+    patch service_appointment_url(@service_appointment), params: { service_appointment: { appointment_details: @service_appointment.appointment_details, completed: @service_appointment.completed, customer_id: @service_appointment.customer_id, end_time: @service_appointment.end_time, start_time: @service_appointment.start_time } }
     assert_redirected_to service_appointment_url(@service_appointment)
   end
 

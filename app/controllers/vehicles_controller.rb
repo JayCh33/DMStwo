@@ -10,7 +10,8 @@ class VehiclesController < InheritedResources::Base
                                       :vehicle_power, :vehicle_drive_type, :vehicle_fuel_type,
                                       :vehicle_doors, :vehicle_color, :vehicle_interior_type,
                                       :vehicle_airbags, :vehicle_euroclass, :vehicle_price,
-                                      :vehicle_life_cycle, :image)
+                                      :vehicle_life_cycle, :image, :vehicle_type,
+                                      :vehicle_identification_number, :vehicle_registration_plate)
     end
 
 end

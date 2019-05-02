@@ -80,5 +80,25 @@
   <%= @vehicle.vehicle_life_cycle %>
 </p>
 
+<p>
+  <strong>Image:</strong>
+  <%= @vehicle.image %>
+</p>
+
+<p>
+  <strong>Vehicle type:</strong>
+  <%= @vehicle.vehicle_type %>
+</p>
+
+<p>
+  <strong>Vehicle identification number:</strong>
+  <%= @vehicle.vehicle_identification_number %>
+</p>
+
+<p>
+  <strong>Vehicle registration plate:</strong>
+  <%= @vehicle.vehicle_registration_plate %>
+</p>
+
 <%= link_to 'Edit', edit_vehicle_path(@vehicle) %> |
 <%= link_to 'Back', vehicles_path %>

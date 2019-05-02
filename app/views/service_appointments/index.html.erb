@@ -5,11 +5,11 @@
 <table>
   <thead>
     <tr>
-      <th>Title</th>
       <th>Start time</th>
       <th>End time</th>
       <th>Appointment details</th>
-      <th>Client</th>
+      <th>Customer</th>
+      <th>Completed</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -17,11 +17,11 @@
   <tbody>
     <% @service_appointments.each do |service_appointment| %>
       <tr>
-        <td><%= service_appointment.title %></td>
         <td><%= service_appointment.start_time %></td>
         <td><%= service_appointment.end_time %></td>
         <td><%= service_appointment.appointment_details %></td>
-        <td><%= service_appointment.client %></td>
+        <td><%= service_appointment.customer %></td>
+        <td><%= service_appointment.completed %></td>
         <td><%= link_to 'Show', service_appointment %></td>
         <td><%= link_to 'Edit', edit_service_appointment_path(service_appointment) %></td>
         <td><%= link_to 'Destroy', service_appointment, method: :delete, data: { confirm: 'Are you sure?' } %></td>

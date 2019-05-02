@@ -1,15 +1,15 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  title: MyString
-  start_time: 2019-03-27 14:46:18
-  end_time: 2019-03-27 14:46:18
+  start_time: 2019-05-02 14:17:12
+  end_time: 2019-05-02 14:17:12
   appointment_details: MyText
-  client: one
+  customer: one
+  completed: false
 
 two:
-  title: MyString
-  start_time: 2019-03-27 14:46:18
-  end_time: 2019-03-27 14:46:18
+  start_time: 2019-05-02 14:17:12
+  end_time: 2019-05-02 14:17:12
   appointment_details: MyText
-  client: two
+  customer: two
+  completed: false

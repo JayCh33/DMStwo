@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  part_name: MyString
+  part_number: MyString
+  image: MyString
+  part_category: MyString
+  part_description: MyText
+  part_purchase_price: 9.99
+  part_customer_price: 9.99
+  quantity: 1
+
+two:
+  part_name: MyString
+  part_number: MyString
+  image: MyString
+  part_category: MyString
+  part_description: MyText
+  part_purchase_price: 9.99
+  part_customer_price: 9.99
+  quantity: 1

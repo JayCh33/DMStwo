@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20190419154116) do
+ActiveRecord::Schema.define(version: 20190502114533) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string "namespace"
@@ -53,11 +53,19 @@ ActiveRecord::Schema.define(version: 20190419154116) do
     t.string "email"
     t.string "phone"
     t.text "details"
-    t.string "vehicle_registration_plate"
-    t.string "vehicle_brand"
-    t.string "vehicle_model"
-    t.text "vehicle_model_details"
-    t.text "vehicle_life_cycle"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "customers", force: :cascade do |t|
+    t.string "name"
+    t.string "country"
+    t.string "city"
+    t.string "address"
+    t.string "postal_code"
+    t.string "email"
+    t.string "phone"
+    t.text "details"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -102,6 +110,19 @@ ActiveRecord::Schema.define(version: 20190419154116) do
     t.index ["user_id"], name: "index_orders_on_user_id"
   end
 
+  create_table "parts", force: :cascade do |t|
+    t.string "part_name"
+    t.string "part_number"
+    t.string "image"
+    t.string "part_category"
+    t.text "part_description"
+    t.decimal "part_purchase_price", precision: 8, scale: 2
+    t.decimal "part_customer_price", precision: 8, scale: 2
+    t.integer "quantity"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "products", force: :cascade do |t|
     t.string "name"
     t.string "image"
@@ -124,14 +145,14 @@ ActiveRecord::Schema.define(version: 20190419154116) do
   end
 
   create_table "service_appointments", force: :cascade do |t|
-    t.string "title"
     t.datetime "start_time"
     t.datetime "end_time"
     t.text "appointment_details"
-    t.integer "client_id"
+    t.integer "customer_id"
+    t.boolean "completed"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["client_id"], name: "index_service_appointments_on_client_id"
+    t.index ["customer_id"], name: "index_service_appointments_on_customer_id"
   end
 
   create_table "suppliers", force: :cascade do |t|
@@ -173,9 +194,14 @@ ActiveRecord::Schema.define(version: 20190419154116) do
     t.string "vehicle_euroclass"
     t.decimal "vehicle_price"
     t.text "vehicle_life_cycle"
+    t.string "image"
+    t.string "vehicle_type"
+    t.string "vehicle_identification_number"
+    t.string "vehicle_registration_plate"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "image"
+    t.integer "customer_id"
+    t.index ["customer_id"], name: "index_vehicles_on_customer_id"
   end
 
 end

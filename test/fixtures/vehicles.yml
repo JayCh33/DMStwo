@@ -5,33 +5,41 @@ one:
   vehicle_category: MyString
   vehicle_model: MyString
   vehicle_condition: MyString
-  vehicle_registration_date: 2019-04-16
+  vehicle_registration_date: 2019-05-02
   vehicle_engine: MyString
   vehicle_power: MyString
   vehicle_drive_type: MyString
   vehicle_fuel_type: MyString
-  vehicle_doors: 
+  vehicle_doors: MyString
   vehicle_color: MyString
   vehicle_interior_type: MyString
-  vehicle_airbags: 
+  vehicle_airbags: MyString
   vehicle_euroclass: MyString
-  vehicle_price: 1
+  vehicle_price: 9.99
   vehicle_life_cycle: MyText
+  image: MyString
+  vehicle_type: MyString
+  vehicle_identification_number: MyString
+  vehicle_registration_plate: MyString
 
 two:
   vehicle_make: MyString
   vehicle_category: MyString
   vehicle_model: MyString
   vehicle_condition: MyString
-  vehicle_registration_date: 2019-04-16
+  vehicle_registration_date: 2019-05-02
   vehicle_engine: MyString
   vehicle_power: MyString
   vehicle_drive_type: MyString
   vehicle_fuel_type: MyString
-  vehicle_doors: 
+  vehicle_doors: MyString
   vehicle_color: MyString
   vehicle_interior_type: MyString
-  vehicle_airbags: 
+  vehicle_airbags: MyString
   vehicle_euroclass: MyString
-  vehicle_price: 1
+  vehicle_price: 9.99
   vehicle_life_cycle: MyText
+  image: MyString
+  vehicle_type: MyString
+  vehicle_identification_number: MyString
+  vehicle_registration_plate: MyString

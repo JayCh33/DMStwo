@@ -1,11 +1,6 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Title:</strong>
-  <%= @service_appointment.title %>
-</p>
-
-<p>
   <strong>Start time:</strong>
   <%= @service_appointment.start_time %>
 </p>
@@ -21,8 +16,13 @@
 </p>
 
 <p>
-  <strong>Client:</strong>
-  <%= @service_appointment.client %>
+  <strong>Customer:</strong>
+  <%= @service_appointment.customer %>
+</p>
+
+<p>
+  <strong>Completed:</strong>
+  <%= @service_appointment.completed %>
 </p>
 
 <%= link_to 'Edit', edit_service_appointment_path(@service_appointment) %> |
