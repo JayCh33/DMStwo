@@ -41,7 +41,7 @@ ActiveAdmin.register Customer do
       row :details
     end
     panel "Customer's Vehicle Details" do
-      attributes_table_for customer.vehicles.where(vehicle_type: 'Customer vehicle') do
+      attributes_table_for customer.vehicles do
         row :image do |ad|
           image_tag ad.image.small
         end

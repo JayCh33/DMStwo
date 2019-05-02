@@ -89,6 +89,7 @@ ActiveAdmin.register Vehicle do
       row :image do |ad|
         image_tag ad.image.medium
       end
+      row :customer
       row :vehicle_identification_number
       row :vehicle_registration_plate
       row :vehicle_type

@@ -2,8 +2,8 @@ ActiveAdmin.register Supplier do
   menu priority: 7
 
   permit_params :name, :country, :city, :address, :postal_code,
-                :email, :phone, :company, :company_details,
-                :bank_details
+                :email, :phone, :company, :company_details, :bank_details,
+                purchase_orders_attributes: [:id, :order_details, :eta, :completed]
 
 
   form do |f|
@@ -28,6 +28,28 @@ ActiveAdmin.register Supplier do
     column :country
     column :email
     actions
+  end
+
+  show do
+    attributes_table do
+     row :name
+     row :country
+     row :city
+     row :address
+     row :postal_code
+     row :email
+     row :phone
+     row :company
+     row :company_details
+     row :bank_details
+    panel "Supplier's Purchase Orders Details" do
+      attributes_table_for supplier.purchase_orders do
+        row :order_details
+        row :eta
+        row :completed
+      end
+    end
+    end
   end
 
   sidebar 'Supplier Registration Details', :only => :show do
