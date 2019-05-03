@@ -1,5 +1,6 @@
 class Vehicle < ApplicationRecord
   mount_uploader :image, ImageUploader
+  belongs_to :customer, optional: true
 
   validates :image, allow_blank: true, format: {
       with: %r{\.(gif|jpg|png)\Z}i,
@@ -12,7 +13,6 @@ class Vehicle < ApplicationRecord
             :vehicle_color, :vehicle_interior_type, :vehicle_airbags,
             :vehicle_euroclass, :presence => true
   validates_uniqueness_of :vehicle_registration_plate, :allow_blank => true
-  belongs_to :customer, optional: true
 
   scope :customer_vehicle, ->{where(vehicle_type: 'Customer vehicle')}
   scope :curtesy_vehicle, ->{where(vehicle_type: 'Curtesy vehicle')}

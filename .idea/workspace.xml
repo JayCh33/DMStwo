@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d8803e1b-4793-4897-a6ca-cf8e3deb0afb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20190430135607_add_vin_and_plate_to_vehicles.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/supplier.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/supplier.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/vehicle.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/vehicle.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -65,32 +67,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/admin/vehicles.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2091">
-              <caret line="123" column="9" lean-forward="true" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="255">
-                <caret line="15" selection-start-line="15" selection-end-line="15" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/app/models/supplier.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20190502114032_create_vehicles.rb">
+        <entry file="file://$PROJECT_DIR$/app/models/purchase_order.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -129,7 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/models/admin_user.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
@@ -142,7 +131,6 @@
         <option value="$PROJECT_DIR$/app/controllers/purchase_orders_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20190419154116_change_productslist_to_orderdetails_in_purchaseorders.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/active_admin.js" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/active_admin.scss" />
         <option value="$PROJECT_DIR$/db/migrate/20190430125751_add_types_to_vehicles.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20190430130216_add_vehicles_to_clients.rb" />
@@ -163,10 +151,7 @@
         <option value="$PROJECT_DIR$/app/controllers/clients_controller.rb" />
         <option value="$PROJECT_DIR$/app/admin/clients.rb" />
         <option value="$PROJECT_DIR$/app/admin/parts.rb" />
-        <option value="$PROJECT_DIR$/app/admin/suppliers.rb" />
-        <option value="$PROJECT_DIR$/app/admin/purchase_orders.rb" />
         <option value="$PROJECT_DIR$/app/models/purchase_order.rb" />
-        <option value="$PROJECT_DIR$/app/admin/customers.rb" />
         <option value="$PROJECT_DIR$/app/controllers/customers_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/parts_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20190327124617_create_service_appointments.rb" />
@@ -177,16 +162,21 @@
         <option value="$PROJECT_DIR$/app/admin/service_appointments.rb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/app/controllers/vehicles_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/vehicle.rb" />
-        <option value="$PROJECT_DIR$/app/admin/vehicles.rb" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app/admin/vehicles.rb" />
+        <option value="$PROJECT_DIR$/app/admin/customers.rb" />
+        <option value="$PROJECT_DIR$/app/admin/purchase_orders.rb" />
+        <option value="$PROJECT_DIR$/app/admin/suppliers.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/models/vehicle.rb" />
+        <option value="$PROJECT_DIR$/app/models/supplier.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="39" />
-    <option name="y" value="23" />
-    <option name="width" value="1871" />
+    <option name="x" value="1364" />
+    <option name="y" value="2" />
+    <option name="width" value="1167" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -198,6 +188,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,7 +205,7 @@
               <item name="dmstwo-v0.11" type="b2602c69:ProjectViewProjectNode" />
               <item name="dmstwo-v0.11" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dmstwo-v0.11" type="b2602c69:ProjectViewProjectNode" />
@@ -231,14 +222,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -408,7 +398,9 @@
       <workItem from="1556793005571" duration="7029000" />
       <workItem from="1556801549848" duration="6000" />
       <workItem from="1556801626721" duration="96000" />
-      <workItem from="1556801830590" duration="1430000" />
+      <workItem from="1556801830590" duration="6778000" />
+      <workItem from="1556904314808" duration="86000" />
+      <workItem from="1556904459093" duration="7808000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed seed Admin_user.superadmin&#10;Fixed Yarn error">
       <created>1553705869827</created>
@@ -585,16 +577,31 @@
       <option name="project" value="LOCAL" />
       <updated>1556802874575</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="v0.11 (ReadMe changes)">
+      <created>1556803499369</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1556803499369</updated>
+    </task>
+    <task id="LOCAL-00027" summary="v0.12">
+      <created>1556816483122</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1556816483122</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185435000" />
+    <option name="totallyTimeSpent" value="198677000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="23" width="1871" height="1047" extended-state="0" />
+    <frame x="1364" y="2" width="1167" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38155714" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2556459" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -638,28 +645,10 @@
     <MESSAGE value="v0.8 (User Friendly Theme Addition)" />
     <MESSAGE value="v0.11" />
     <MESSAGE value="v0.11 (ReadMe changes)" />
-    <option name="LAST_COMMIT_MESSAGE" value="v0.11 (ReadMe changes)" />
+    <MESSAGE value="v0.12" />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.12" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190430130026_add_vin_to_vehicles.rb" />
-    <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190430125751_add_types_to_vehicles.rb" />
-    <entry file="file://$PROJECT_DIR$/config/initializers/active_admin.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-419">
-          <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/supplier.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190430200642_remove_vehicle_from_clients.rb" />
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190321121249_create_active_admin_comments.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20190419153954_create_line_products.rb" />
     <entry file="file://$PROJECT_DIR$/app/models/line_product.rb" />
     <entry file="file://$PROJECT_DIR$/db/migrate/20190207135419_create_products.rb" />
@@ -679,27 +668,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/products.rb" />
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190326130945_create_purchase_orders.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/admin_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/dashboard.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -707,37 +675,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/parts.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="65" column="7" lean-forward="true" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/purchase_orders.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/purchase_order.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="7" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20190416185011_create_vehicles.rb" />
     <entry file="file://$PROJECT_DIR$/db/migrate/20190327121917_create_clients.rb" />
     <entry file="file://$PROJECT_DIR$/db/migrate/20190430201556_add_client_to_vehicles.rb" />
-    <entry file="file://$PROJECT_DIR$/app/admin/customers.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="802">
-          <caret line="78" column="25" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/clients_controller.rb" />
     <entry file="file://$PROJECT_DIR$/app/controllers/parts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
@@ -757,27 +697,6 @@
     <entry file="file://$PROJECT_DIR$/db/migrate/20190502105448_change_client_to_customer_in_serviceappointments.rb" />
     <entry file="file://$PROJECT_DIR$/db/migrate/20190502111712_create_service_appointments.rb">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/service_appointment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/suppliers.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="27" lean-forward="true" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/customer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/customers_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
@@ -801,13 +720,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20190502113841_create_vehicles.rb" />
-    <entry file="file://$PROJECT_DIR$/app/models/vehicle.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" selection-start-line="27" selection-end-line="27" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://331e7040-a3c8-4b3b-9094-141d48d0b34a/schema/main/table/sqlite_master">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -829,20 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/service_appointments.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/vehicles.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2091">
-          <caret line="123" column="9" lean-forward="true" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20190502114032_create_vehicles.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -850,10 +748,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190430135607_add_vin_and_plate_to_vehicles.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190430135607_add_vin_and_plate_to_vehicles.rb" />
+    <entry file="file://$PROJECT_DIR$/app/admin/admin_users.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="289">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -864,6 +770,461 @@
             <caret line="15" selection-start-line="15" selection-end-line="15" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/service_appointments.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/vehicles.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1734">
+          <caret line="102" column="29" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/parts.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="7" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/purchase_orders.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/suppliers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="53" selection-start-line="53" selection-end-line="53" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Ruby/Vehicle">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Ruby</ID>
+          <OriginalElement>Vehicle</OriginalElement>
+          <nodes>
+            <node x="" y="">ActiveModel::AttributeMethods::ClassMethods</node>
+            <node x="" y="">ActiveRecord::Scoping::Default</node>
+            <node x="" y="">ActiveRecord::NestedAttributes</node>
+            <node x="" y="">ActiveRecord::Transactions</node>
+            <node x="" y="">ActiveRecord::QueryCache::ClassMethods</node>
+            <node x="" y="">ActiveRecord::Suppressor</node>
+            <node x="" y="">ApplicationRecord</node>
+            <node x="" y="">ActiveRecord::Sanitization::ClassMethods</node>
+            <node x="" y="">ActiveRecord::CollectionCacheKey</node>
+            <node x="" y="">ActiveRecord::Locking::Optimistic::ClassMethods</node>
+            <node x="" y="">ActiveRecord::DynamicMatchers</node>
+            <node x="" y="">ActiveRecord::Inheritance::ClassMethods</node>
+            <node x="" y="">ActiveModel::Translation</node>
+            <node x="" y="">ActiveModel::Serializers::JSON</node>
+            <node x="" y="">ActiveRecord::Persistence</node>
+            <node x="" y="">ActiveModel::Naming</node>
+            <node x="" y="">ActiveRecord::NoTouching::ClassMethods</node>
+            <node x="" y="">ActiveModel::Serializers::Xml</node>
+            <node x="" y="">ActiveModel::Validations::HelperMethods</node>
+            <node x="" y="">ActiveRecord::Base</node>
+            <node x="" y="">Module::Concerning</node>
+            <node x="" y="">ActiveRecord::AttributeMethods::Serialization::ClassMethods</node>
+            <node x="" y="">ActiveRecord::Aggregations::ClassMethods</node>
+            <node x="" y="">ActiveRecord::DefineCallbacks</node>
+            <node x="" y="">ActiveRecord::Explain</node>
+            <node x="" y="">DidYouMean::ExtraFeatures::InitializerNameCorrection</node>
+            <node x="" y="">ActiveRecord::AttributeDecorators::ClassMethods</node>
+            <node x="" y="">ActiveRecord::Enum</node>
+            <node x="" y="">RequireAll</node>
+            <node x="" y="">ActiveRecord::SecureToken</node>
+            <node x="" y="">ActiveRecord::Delegation::DelegateCache</node>
+            <node x="" y="">ActiveRecord::CounterCache::ClassMethods</node>
+            <node x="" y="">ActiveRecord::Callbacks</node>
+            <node x="" y="">ActiveRecord::Transactions::ClassMethods</node>
+            <node x="" y="">ActiveRecord::AttributeMethods::Write::ClassMethods</node>
+            <node x="" y="">ActiveRecord::AttributeMethods::Dirty</node>
+            <node x="" y="">ActiveRecord::AutosaveAssociation::ClassMethods</node>
+            <node x="" y="">ActiveModel::Validations</node>
+            <node x="" y="">Vehicle</node>
+            <node x="" y="">ActiveSupport::Callbacks</node>
+            <node x="" y="">ActiveRecord::Attributes</node>
+            <node x="" y="">ActiveSupport::Callbacks::ClassMethods</node>
+            <node x="" y="">ActiveRecord::Timestamp</node>
+            <node x="" y="">ActiveSupport::Benchmarkable</node>
+            <node x="" y="">ActiveRecord::ReadonlyAttributes::ClassMethods</node>
+            <node x="" y="">PP::ObjectMixin</node>
+            <node x="" y="">ActiveRecord::Inheritance</node>
+            <node x="" y="">ActiveRecord::Serialization</node>
+            <node x="" y="">Kernel</node>
+            <node x="" y="">ActiveRecord::NestedAttributes::ClassMethods</node>
+            <node x="" y="">ActiveRecord::Suppressor::ClassMethods</node>
+            <node x="" y="">ActiveRecord::Associations</node>
+            <node x="" y="">ActiveRecord::ReadonlyAttributes</node>
+            <node x="" y="">ActiveRecord::AttributeMethods::Read::ClassMethods</node>
+            <node x="" y="">ActiveModel::SecurePassword::ClassMethods</node>
+            <node x="" y="">ActiveRecord::DefineCallbacks::ClassMethods</node>
+            <node x="" y="">Class</node>
+            <node x="" y="">ActiveModel::Validations::Callbacks::ClassMethods</node>
+            <node x="" y="">ActiveRecord::AttributeMethods::Query</node>
+            <node x="" y="">ActiveRecord::Persistence::ClassMethods</node>
+            <node x="" y="">ActiveRecord::Scoping::Default::ClassMethods</node>
+            <node x="" y="">ActiveRecord::SecureToken::ClassMethods</node>
+            <node x="" y="">ActiveRecord::Scoping</node>
+            <node x="" y="">CanCan::ModelAdditions::ClassMethods</node>
+            <node x="" y="">ActiveRecord::Integration</node>
+            <node x="" y="">ActiveRecord::AttributeMethods::BeforeTypeCast</node>
+            <node x="" y="">ActiveRecord::Reflection</node>
+            <node x="" y="">ActiveRecord::Sanitization</node>
+            <node x="" y="">ActiveRecord::AttributeMethods</node>
+            <node x="" y="">ActiveRecord::Locking::Optimistic</node>
+            <node x="" y="">ActiveRecord::AttributeDecorators</node>
+            <node x="" y="">ActiveRecord::Aggregations</node>
+            <node x="" y="">ActiveModel::ForbiddenAttributesProtection</node>
+            <node x="" y="">Kaminari::ActiveRecordExtension::ClassMethods</node>
+            <node x="" y="">ActiveRecord::AttributeMethods::TimeZoneConversion</node>
+            <node x="" y="">ActiveRecord::Validations::ClassMethods</node>
+            <node x="" y="">ActiveModel::Validations::Callbacks</node>
+            <node x="" y="">ActiveRecord::AttributeMethods::Write</node>
+            <node x="" y="">ActiveModel::SecurePassword</node>
+            <node x="" y="">Tk::TOPLEVEL_ALIASES</node>
+            <node x="" y="">CarrierWave::ActiveRecord</node>
+            <node x="" y="">ActiveRecord::Associations::ClassMethods</node>
+            <node x="" y="">ActiveModel::Conversion::ClassMethods</node>
+            <node x="" y="">ActiveRecord::AutosaveAssociation</node>
+            <node x="" y="">ActiveModel::Serialization</node>
+            <node x="" y="">ActiveModel::Dirty</node>
+            <node x="" y="">ActiveRecord::Attributes::ClassMethods</node>
+            <node x="" y="">BasicObject</node>
+            <node x="" y="">ActiveRecord::Integration::ClassMethods</node>
+            <node x="" y="">ActiveRecord::Translation</node>
+            <node x="" y="">ActiveRecord::AttributeMethods::Read</node>
+            <node x="" y="">ActiveRecord::Store::ClassMethods</node>
+            <node x="" y="">ActiveRecord::AttributeMethods::ClassMethods</node>
+            <node x="" y="">ActiveRecord::NoTouching</node>
+            <node x="" y="">Kaminari::ActiveRecordExtension</node>
+            <node x="" y="">Object</node>
+            <node x="" y="">Module</node>
+            <node x="" y="">ActiveModel::AttributeAssignment</node>
+            <node x="" y="">ActiveRecord::Scoping::Named::ClassMethods</node>
+            <node x="" y="">ActiveRecord::TouchLater</node>
+            <node x="" y="">ActiveModel::Validations::ClassMethods</node>
+            <node x="" y="">ActiveRecord::Core::ClassMethods</node>
+            <node x="" y="">ActiveRecord::AttributeMethods::Serialization</node>
+            <node x="" y="">ActiveRecord::CounterCache</node>
+            <node x="" y="">Warden::Test::Helpers</node>
+            <node x="" y="">ActiveRecord::Scoping::Named</node>
+            <node x="" y="">ActiveSupport::Tryable</node>
+            <node x="" y="">ActiveRecord::ConnectionHandling</node>
+            <node x="" y="">ActiveRecord::ModelSchema::ClassMethods</node>
+            <node x="" y="">ActiveModel::AttributeMethods</node>
+            <node x="" y="">ActiveRecord::Scoping::ClassMethods</node>
+            <node x="" y="">ActiveRecord::Reflection::ClassMethods</node>
+            <node x="" y="">ActiveModel::Conversion</node>
+            <node x="" y="">ActiveRecord::AttributeAssignment</node>
+            <node x="" y="">ActiveRecord::Validations</node>
+            <node x="" y="">ActiveRecord::AttributeMethods::TimeZoneConversion::ClassMethods</node>
+            <node x="" y="">ActiveRecord::AttributeMethods::PrimaryKey</node>
+            <node x="" y="">ActiveRecord::Core</node>
+            <node x="" y="">ActiveRecord::Locking::Pessimistic</node>
+            <node x="" y="">ActiveRecord::Querying</node>
+            <node x="" y="">CarrierWave::Mount</node>
+            <node x="" y="">CanCan::ModelAdditions</node>
+            <node x="" y="">ActiveRecord::AttributeMethods::PrimaryKey::ClassMethods</node>
+            <node x="" y="">ActiveModel::Callbacks</node>
+            <node x="" y="">ActiveRecord::Store</node>
+            <node x="" y="">ActiveRecord::ModelSchema</node>
+            <node x="" y="">ActiveSupport::DescendantsTracker</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9203798392987579" x="2280.3176944963357" y="472.1984126984129" />
+          <SelectedNodes />
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190321121242_devise_create_admin_users.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190326130537_create_suppliers.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190326130945_create_purchase_orders.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Sites/dmstwo-v0.11">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/node_modules/webpack-dev-server/lib/OptionsValidationError.js#optionsSchema#60;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/prop-types/lib/ReactPropTypesSecret.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/webpack-dev-server/lib/Server.js#OptionsValidationError#775;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/lib/Server.js#addDevServerEntrypoints.js#23145;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/lib/Server.js#chokidar#189;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/lib/Server.js#compress#227;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/lib/Server.js#del#268;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/lib/Server.js#express#296;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/lib/Server.js#fs#75;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/lib/Server.js#historyApiFallback#501;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/lib/Server.js#http#101;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/lib/Server.js#httpProxyMiddleware#332;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/lib/Server.js#ip#394;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/lib/Server.js#killable#420;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/lib/Server.js#optionsSchema#843;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/lib/Server.js#path#131;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/lib/Server.js#polyfills.js#44;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/lib/Server.js#selfsigned#569;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/lib/Server.js#serveIndex#458;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/lib/Server.js#sockjs#611;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/lib/Server.js#spdy#645;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/lib/Server.js#url#161;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/lib/Server.js#webpack#675;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/lib/Server.js#webpackDevMiddleware#711;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/webpack-dev-server/lib/util/addDevServerEntrypoints.js#createDomain#60;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/rules/babel.js#config.js#67;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/rules/babel.js#path#17;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/environments/__tests__/base.js#Environment#386;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/environments/__tests__/base.js#helpers.js#206;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/environments/__tests__/base.js#index.js#350;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/environments/__tests__/base.js#path#274;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/environments/__tests__/base.js#rules#296;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/environments/base.js#CaseSensitivePathsPlugin#394;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/environments/base.js#ExtractTextPlugin#271;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/environments/base.js#ManifestPlugin#336;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/environments/base.js#config#573;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/environments/base.js#extname#186;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/environments/base.js#glob.js#164;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/environments/base.js#index.js#506;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/environments/base.js#path#131;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/environments/base.js#rules#539;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/environments/base.js#webpack#236;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/prop-types/checkPropTypes.js#ReactPropTypesSecret#285;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/uglifyjs-webpack-plugin/dist/cjs.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/compression-webpack-plugin/dist/cjs.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/extract-text-webpack-plugin/dist/cjs.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/webpack/bin/config-yargs.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/__tests__/config.js#config#122;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/__tests__/config.js#helpers.js#71;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/config.js#deepMerge#121;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/config.js#env.js#231;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/config.js#fs#101;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/config.js#helpers.js#183;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/config.js#index.js#57;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/config.js#path#20;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/config_types/__tests__/config_list.js#ConfigList#32;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/config_types/config_list.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/config_types/__tests__/config_object.js#ConfigObject#32;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/config_types/config_object.js#deepAssign#54;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/config_types/config_object.js#deepMerge#105;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/config_types/config_object.js#helpers.js#183;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/config_types/config_object.js#objectify#6;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/webpack/bin/convert-argv.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/webpack-dev-server/lib/util/createDomain.js#internalIp#49;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/lib/util/createDomain.js#url#21;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/rules/css.js#getStyleRule#6;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/utils/__tests__/deep_assign.js#deepAssign#32;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/utils/deep_assign.js#deepMerge#61;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/utils/deep_assign.js#helpers.js#34;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/utils/__tests__/deep_merge.js#deepMerge#32;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/utils/deep_merge.js#helpers.js#50;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/__tests__/dev_server.js#devServer#470;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/__tests__/dev_server.js#dev_server.js#794;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/__tests__/dev_server.js#helpers.js#71;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/dev_server.js#config#55;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/dev_server.js#helpers.js#22;</node>
+            <node x="" y="">$PROJECT_DIR$/config/webpack/development.js#environment#68;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/environments/development.js#Base#41;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/environments/development.js#config.js#157;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/environments/development.js#devServer#72;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/environments/development.js#webpack#6;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/__tests__/development.js#helpers.js#122;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/__tests__/development.js#index.js#497;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/__tests__/development.js#path#71;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/webpack/hot/emitter.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/__tests__/env.js#env.js#361;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/__tests__/env.js#helpers.js#71;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/env.js#fs#101;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/env.js#index.js#57;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/env.js#path#20;</node>
+            <node x="" y="">$PROJECT_DIR$/config/webpack/environment.js#index.js#24;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/prop-types/factory.js#factory#549;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/prop-types/factoryWithThrowingShims.js#ReactPropTypesSecret#203;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/prop-types/factoryWithTypeCheckers.js#ReactIs#203;C:/Sites/dmstwo-v0.11/node_modules/prop-types/factoryWithTypeCheckers.js#ReactPropTypesSecret#278;C:/Sites/dmstwo-v0.11/node_modules/prop-types/factoryWithTypeCheckers.js#assign#238;C:/Sites/dmstwo-v0.11/node_modules/prop-types/factoryWithTypeCheckers.js#checkPropTypes#344;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/rules/file.js#config.js#69;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/rules/file.js#path#17;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/utils/__tests__/get_style_rule.js#getStyleRule#80;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/utils/__tests__/get_style_rule.js#helpers.js#35;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/utils/get_style_rule.js#ExtractTextPlugin#6;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/utils/get_style_rule.js#devServer#100;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/utils/get_style_rule.js#env.js#157;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/utils/get_style_rule.js#path#71;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/glob/glob.js</node>
+            <node x="" y="">$PROJECT_DIR$/public/packs/hello_react-e69f1d5e414da3815515.js#factoryWithThrowingShims#879482;C:/Sites/dmstwo-v0.11/public/packs/hello_react-e69f1d5e414da3815515.js#react-dom.production.min.js#77567;C:/Sites/dmstwo-v0.11/public/packs/hello_react-e69f1d5e414da3815515.js#react-is.production.min.js#10205;C:/Sites/dmstwo-v0.11/public/packs/hello_react-e69f1d5e414da3815515.js#react.production.min.js#9109;C:/Sites/dmstwo-v0.11/public/packs/hello_react-e69f1d5e414da3815515.js#scheduler-tracing.production.min.js#867496;C:/Sites/dmstwo-v0.11/public/packs/hello_react-e69f1d5e414da3815515.js#scheduler.production.min.js#842904;</node>
+            <node x="" y="">$PROJECT_DIR$/app/javascript/packs/hello_react.jsx#PropTypes#294;C:/Sites/dmstwo-v0.11/app/javascript/packs/hello_react.jsx#React#235;C:/Sites/dmstwo-v0.11/app/javascript/packs/hello_react.jsx#ReactDOM#261;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/utils/helpers.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/connect-history-api-fallback/lib/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/serve-index/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/killable/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/http-proxy-middleware/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/compression/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chokidar/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/internal-ip/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/opn/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/supports-color/index.js</node>
+            <node x="" y="">usage;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/import-local/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/webpack-dev-server/node_modules/debug/src/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-is/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/optimize-css-assets-webpack-plugin/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/ansi-html/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/case-sensitive-paths-webpack-plugin/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/webpack-manifest-plugin/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/path-complete-extname/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/js-yaml/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/del/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/babel-plugin-transform-react-display-name/lib/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/babel-preset-flow/lib/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/object-assign/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/array-includes/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/webpack-dev-server/client/index.js#hotEmitter#6877;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/client/index.js#log#182;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/client/index.js#overlay#273;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/client/index.js#socket#239;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/client/index.js#stripAnsi#137;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/client/index.js#url#111;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/babel-preset-react/lib/index.js#_babelPluginSyntaxJsx#343;C:/Sites/dmstwo-v0.11/node_modules/babel-preset-react/lib/index.js#_babelPluginTransformReactDisplayName#485;C:/Sites/dmstwo-v0.11/node_modules/babel-preset-react/lib/index.js#_babelPluginTransformReactJsx#168;C:/Sites/dmstwo-v0.11/node_modules/babel-preset-react/lib/index.js#_babelPresetFlow#47;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/index.js#react-dom.development.js#1318;C:/Sites/dmstwo-v0.11/node_modules/react-dom/index.js#react-dom.production.min.js#1244;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/babel-plugin-transform-react-jsx/lib/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/config_types/index.js#ConfigList#54;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/config_types/index.js#ConfigObject#6;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/prop-types/index.js#ReactIs#235;C:/Sites/dmstwo-v0.11/node_modules/prop-types/index.js#factoryWithThrowingShims.js#667;C:/Sites/dmstwo-v0.11/node_modules/prop-types/index.js#factoryWithTypeCheckers.js#441;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/rules/index.js#babel#6;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/rules/index.js#css#70;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/rules/index.js#file#39;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/rules/index.js#moduleCss#130;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/rules/index.js#moduleSass#172;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/rules/index.js#sass#99;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/index.js#Environment#153;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/index.js#config#239;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/index.js#constructor#457;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/index.js#devServer#274;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/index.js#env.js#330;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/index.js#fs#133;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/index.js#loaders#204;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/index.js#path#94;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react/index.js#react.development.js#149;C:/Sites/dmstwo-v0.11/node_modules/react/index.js#react.production.min.js#79;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/babel-plugin-syntax-jsx/lib/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bonjour/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/scheduler/index.js</node>
+            <node x="" y="">AllHtmlEntities;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/strip-ansi/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/sockjs/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/selfsigned/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/ip/lib/ip.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/webpack-dev-server/client/live.html</node>
+            <node x="" y="">getLogger;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/webpack-dev-middleware/middleware.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/rules/module.css.js#getStyleRule#6;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/rules/module.sass.js#getStyleRule#6;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/utils/__tests__/objectify.js#objectify#32;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/utils/objectify.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/webpack-dev-server/lib/optionsSchema.json</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/webpack-dev-server/client/overlay.js#Entities#311;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/client/overlay.js#ansiHTML#263;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/webpack/package.json#version#25;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/webpack-dev-server/package.json#version#36;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/webpack-dev-server/lib/polyfills.js#includes#95;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/portfinder/lib/portfinder.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/config/webpack/production.js#environment#67;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/environments/production.js#Base#241;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/environments/production.js#CompressionPlugin#41;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/environments/production.js#OptimizeCSSAssetsPlugin#163;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/environments/production.js#UglifyJsPlugin#105;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/environments/production.js#webpack#6;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/__tests__/production.js#helpers.js#122;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/__tests__/production.js#index.js#494;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/__tests__/production.js#path#71;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/profiling.js#react-dom.development.js#1317;C:/Sites/dmstwo-v0.11/node_modules/react-dom/profiling.js#react-dom.profiling.min.js#1244;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/prop-types/prop-types.js#ReactIs#6582;C:/Sites/dmstwo-v0.11/node_modules/prop-types/prop-types.js#ReactPropTypesSecret#1128;C:/Sites/dmstwo-v0.11/node_modules/prop-types/prop-types.js#_process#44814;C:/Sites/dmstwo-v0.11/node_modules/prop-types/prop-types.js#assign#6617;C:/Sites/dmstwo-v0.11/node_modules/prop-types/prop-types.js#checkPropTypes#6723;C:/Sites/dmstwo-v0.11/node_modules/prop-types/prop-types.js#factoryWithThrowingShims.js#28580;C:/Sites/dmstwo-v0.11/node_modules/prop-types/prop-types.js#factoryWithTypeCheckers.js#28354;C:/Sites/dmstwo-v0.11/node_modules/prop-types/prop-types.js#react-is.development.js#47447;C:/Sites/dmstwo-v0.11/node_modules/prop-types/prop-types.js#react-is.production.min.js#47374;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-server.browser.development.js#react#393;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.browser.development.js#React#396;C:/Sites/dmstwo-v0.11/node_modules/react-dom/cjs/react-dom-server.browser.development.js#_assign#356;C:/Sites/dmstwo-v0.11/node_modules/react-dom/cjs/react-dom-server.browser.development.js#checkPropTypes#426;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-server.browser.production.min.js#react#361;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js#p#279;C:/Sites/dmstwo-v0.11/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js#q#306;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.node.development.js#React#393;C:/Sites/dmstwo-v0.11/node_modules/react-dom/cjs/react-dom-server.node.development.js#_assign#353;C:/Sites/dmstwo-v0.11/node_modules/react-dom/cjs/react-dom-server.node.development.js#checkPropTypes#423;C:/Sites/dmstwo-v0.11/node_modules/react-dom/cjs/react-dom-server.node.development.js#stream#482;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.node.production.min.js#aa#322;C:/Sites/dmstwo-v0.11/node_modules/react-dom/cjs/react-dom-server.node.production.min.js#p#276;C:/Sites/dmstwo-v0.11/node_modules/react-dom/cjs/react-dom-server.node.production.min.js#q#303;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-test-utils.development.js#index.js#407;C:/Sites/dmstwo-v0.11/node_modules/react-dom/umd/react-dom-test-utils.development.js#react#389;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-test-utils.development.js#React#392;C:/Sites/dmstwo-v0.11/node_modules/react-dom/cjs/react-dom-test-utils.development.js#ReactDOM#422;C:/Sites/dmstwo-v0.11/node_modules/react-dom/cjs/react-dom-test-utils.development.js#_assign#352;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-test-utils.production.min.js#index.js#374;C:/Sites/dmstwo-v0.11/node_modules/react-dom/umd/react-dom-test-utils.production.min.js#react#357;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-test-utils.production.min.js#g#275;C:/Sites/dmstwo-v0.11/node_modules/react-dom/cjs/react-dom-test-utils.production.min.js#l#302;C:/Sites/dmstwo-v0.11/node_modules/react-dom/cjs/react-dom-test-utils.production.min.js#m#321;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-fire.development.js#react#392;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-fire.development.js#React#355;C:/Sites/dmstwo-v0.11/node_modules/react-dom/cjs/react-dom-unstable-fire.development.js#_assign#385;C:/Sites/dmstwo-v0.11/node_modules/react-dom/cjs/react-dom-unstable-fire.development.js#checkPropTypes#425;C:/Sites/dmstwo-v0.11/node_modules/react-dom/cjs/react-dom-unstable-fire.development.js#scheduler#484;C:/Sites/dmstwo-v0.11/node_modules/react-dom/cjs/react-dom-unstable-fire.development.js#tracing#522;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-fire.production.min.js#react#410;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-fire.production.min.js#aa#325;C:/Sites/dmstwo-v0.11/node_modules/react-dom/cjs/react-dom-unstable-fire.production.min.js#ba#372;C:/Sites/dmstwo-v0.11/node_modules/react-dom/cjs/react-dom-unstable-fire.production.min.js#p#345;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-fire.profiling.min.js#react#408;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-fire.profiling.min.js#aa#324;C:/Sites/dmstwo-v0.11/node_modules/react-dom/cjs/react-dom-unstable-fire.profiling.min.js#n#344;C:/Sites/dmstwo-v0.11/node_modules/react-dom/cjs/react-dom-unstable-fire.profiling.min.js#r#371;C:/Sites/dmstwo-v0.11/node_modules/react-dom/cjs/react-dom-unstable-fire.profiling.min.js#w#394;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-fizz.browser.development.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-fizz.browser.production.min.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-fizz.node.development.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-fizz.node.production.min.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-native-dependencies.development.js#index.js#407;C:/Sites/dmstwo-v0.11/node_modules/react-dom/umd/react-dom-unstable-native-dependencies.development.js#react#429;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.development.js#ReactDOM#370;C:/Sites/dmstwo-v0.11/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.development.js#_assign#407;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-native-dependencies.production.min.js#index.js#375;C:/Sites/dmstwo-v0.11/node_modules/react-dom/umd/react-dom-unstable-native-dependencies.production.min.js#react#396;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.production.min.js#k#293;C:/Sites/dmstwo-v0.11/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.production.min.js#l#316;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/umd/react-dom.development.js#react#378;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.development.js#React#341;C:/Sites/dmstwo-v0.11/node_modules/react-dom/cjs/react-dom.development.js#_assign#371;C:/Sites/dmstwo-v0.11/node_modules/react-dom/cjs/react-dom.development.js#checkPropTypes#411;C:/Sites/dmstwo-v0.11/node_modules/react-dom/cjs/react-dom.development.js#scheduler#470;C:/Sites/dmstwo-v0.11/node_modules/react-dom/cjs/react-dom.development.js#tracing#508;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/umd/react-dom.production.min.js#react#396;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.production.min.js#aa#311;C:/Sites/dmstwo-v0.11/node_modules/react-dom/cjs/react-dom.production.min.js#ba#358;C:/Sites/dmstwo-v0.11/node_modules/react-dom/cjs/react-dom.production.min.js#p#331;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/umd/react-dom.profiling.min.js#react#394;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.profiling.min.js#aa#310;C:/Sites/dmstwo-v0.11/node_modules/react-dom/cjs/react-dom.profiling.min.js#n#330;C:/Sites/dmstwo-v0.11/node_modules/react-dom/cjs/react-dom.profiling.min.js#r#357;C:/Sites/dmstwo-v0.11/node_modules/react-dom/cjs/react-dom.profiling.min.js#w#380;</node>
+            <node x="" y="">$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react/cjs/react.development.js#_assign#337;C:/Sites/dmstwo-v0.11/node_modules/react/cjs/react.development.js#checkPropTypes#377;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react/cjs/react.production.min.js#k#260;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/rules/sass.js#getStyleRule#6;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/server.browser.js#react-dom-server.browser.development.js#168;C:/Sites/dmstwo-v0.11/node_modules/react-dom/server.browser.js#react-dom-server.browser.production.min.js#79;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/server.js#server.node.js#32;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/server.node.js#react-dom-server.node.development.js#165;C:/Sites/dmstwo-v0.11/node_modules/react-dom/server.node.js#react-dom-server.node.production.min.js#79;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/webpack-dev-server/client/socket.js#SockJS#19;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/sockjs-client/dist/sockjs.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/spdy/lib/spdy.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/__tests__/staging.js#helpers.js#122;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/__tests__/staging.js#index.js#487;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/__tests__/staging.js#path#71;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/test-utils.js#react-dom-test-utils.development.js#164;C:/Sites/dmstwo-v0.11/node_modules/react-dom/test-utils.js#react-dom-test-utils.production.min.js#79;</node>
+            <node x="" y="">$PROJECT_DIR$/config/webpack/test.js#environment#68;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/environments/test.js#Base#6;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@rails/webpacker/package/__tests__/test.js#helpers.js#122;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/__tests__/test.js#index.js#481;C:/Sites/dmstwo-v0.11/node_modules/@rails/webpacker/package/__tests__/test.js#path#71;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/scheduler/tracing.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/unstable-fizz.browser.js#react-dom-unstable-fizz.browser.development.js#175;C:/Sites/dmstwo-v0.11/node_modules/react-dom/unstable-fizz.browser.js#react-dom-unstable-fizz.browser.production.min.js#79;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/unstable-fizz.js#unstable-fizz.node.js#32;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/unstable-fizz.node.js#react-dom-unstable-fizz.node.development.js#172;C:/Sites/dmstwo-v0.11/node_modules/react-dom/unstable-fizz.node.js#react-dom-unstable-fizz.node.production.min.js#79;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/unstable-native-dependencies.js#react-dom-unstable-native-dependencies.development.js#182;C:/Sites/dmstwo-v0.11/node_modules/react-dom/unstable-native-dependencies.js#react-dom-unstable-native-dependencies.production.min.js#79;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/url/url.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/webpack-dev-server/bin/webpack-dev-server.js#OptionsValidationError#10883;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/bin/webpack-dev-server.js#Server#710;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/bin/webpack-dev-server.js#addDevServerEntrypoints#395;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/bin/webpack-dev-server.js#bonjour#14081;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/bin/webpack-dev-server.js#config-yargs.js#1532;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/bin/webpack-dev-server.js#createDomain#475;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/bin/webpack-dev-server.js#debug#141;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/bin/webpack-dev-server.js#fs#195;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/bin/webpack-dev-server.js#importLocal#279;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/bin/webpack-dev-server.js#index.js#3209;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/bin/webpack-dev-server.js#net#221;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/bin/webpack-dev-server.js#open#324;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/bin/webpack-dev-server.js#path#249;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/bin/webpack-dev-server.js#polyfills.js#105;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/bin/webpack-dev-server.js#portfinder#353;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/bin/webpack-dev-server.js#version#861;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/bin/webpack-dev-server.js#webpack#751;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/bin/webpack-dev-server.js#wpOpt#5570;C:/Sites/dmstwo-v0.11/node_modules/webpack-dev-server/bin/webpack-dev-server.js#yargs#1427;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/webpack/lib/webpack.js</node>
+            <node x="" y="">/__webpack_dev_server__/live.bundle.js</node>
+            <node x="" y="">_process</node>
+            <node x="" y="">factoryWithThrowingShims</node>
+            <node x="" y="">fs</node>
+            <node x="" y="">http</node>
+            <node x="" y="">net</node>
+            <node x="" y="">path</node>
+            <node x="" y="">react</node>
+            <node x="" y="">react-dom.production.min.js</node>
+            <node x="" y="">react-is.development.js</node>
+            <node x="" y="">react-is.production.min.js</node>
+            <node x="" y="">react.production.min.js</node>
+            <node x="" y="">scheduler-tracing.production.min.js</node>
+            <node x="" y="">scheduler.production.min.js</node>
+            <node x="" y="">stream</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9323687855933509" x="1239.3792572221173" y="4995.190900686741" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://RailsDependency/Part">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>RailsDependency</ID>
+          <OriginalElement>Part</OriginalElement>
+          <nodes>
+            <node x="" y="">Supplier</node>
+            <node x="" y="">Vehicle</node>
+            <node x="" y="">PurchaseOrder</node>
+            <node x="" y="">Part</node>
+            <node x="" y="">Customer</node>
+            <node x="" y="">ApplicationRecord</node>
+            <node x="" y="">ServiceAppointment</node>
+            <node x="" y="">AdminUser</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.721476510067114" x="467.0" y="586.0000000000001" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Association fields</Category>
+            <Category>Migration fields</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/customers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/customer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/service_appointment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="3" lean-forward="true" selection-start-column="1" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/vehicle.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/purchase_order.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/supplier.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
         </state>
       </provider>
     </entry>

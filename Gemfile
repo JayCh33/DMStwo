@@ -55,7 +55,6 @@ gem 'inherited_resources'#, github: 'activeadmin/inherited_resources'
 gem 'country-select'
 gem 'activeadmin-xls', '~>2.0.0'
 gem 'activeadmin_addons'
-#gem 'wicked_pdf'
 gem 'active_admin_datetimepicker'
 gem 'active_admin_theme'
 

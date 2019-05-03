@@ -1,5 +1,5 @@
 class Supplier < ApplicationRecord
-  has_many :purchase_orders
+  has_many :purchase_orders, dependent: :destroy
 
   validates :name, :country, :city, :address, :postal_code, :company_details, presence: true
   validates :email, :phone, :company, :bank_details, presence: true, uniqueness: true
