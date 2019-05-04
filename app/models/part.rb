@@ -1,6 +1,7 @@
 class Part < ApplicationRecord
   mount_uploader :image, ImageUploader
-  validates :part_name, :part_number, :part_description, :part_category, :image, presence: true
+  validates :part_name, :part_number, :part_description, :part_category,
+            :image, presence: true
   validates :part_name, :part_number, uniqueness: true
   validates :image, allow_blank: true, format: {
       with: %r{\.(gif|jpg|png)\Z}i,

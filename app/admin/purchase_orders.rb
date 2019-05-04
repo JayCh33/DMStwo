@@ -13,8 +13,7 @@ ActiveAdmin.register PurchaseOrder do
       f.input :supplier, label: "Supplier "
       f.input :order_details, label: "Order details: ",
               placeholder: " Part number: | Quantity: ",
-              hint: 'Order template: Part number: | Quantity: ',
-              :input_html => {'rows' => 5}
+              hint: 'Order template: Part number: | Quantity: '
       f.input :eta, start_year: Date.today.year, label: "ETA", hint: "Estimated Time of Arrival"
       f.input :completed
     end

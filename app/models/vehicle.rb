@@ -7,10 +7,12 @@ class Vehicle < ApplicationRecord
       message: 'Image must be GIF, JPG or PNG format'
   }
   validates :vehicle_identification_number,:uniqueness => true
-  validates :vehicle_identification_number,:vehicle_make, :vehicle_type,:vehicle_category,
-            :vehicle_model, :vehicle_condition, :vehicle_registration_date, :vehicle_engine,
-            :vehicle_power, :vehicle_drive_type, :vehicle_fuel_type, :vehicle_doors,
-            :vehicle_color, :vehicle_interior_type, :vehicle_airbags,
+  validates :vehicle_identification_number,:vehicle_make,
+            :vehicle_type,:vehicle_category, :vehicle_model,
+            :vehicle_condition, :vehicle_registration_date,
+            :vehicle_engine,:vehicle_power, :vehicle_drive_type,
+            :vehicle_fuel_type, :vehicle_doors, :vehicle_color,
+            :vehicle_interior_type, :vehicle_airbags,
             :vehicle_euroclass, :presence => true
   validates_uniqueness_of :vehicle_registration_plate, :allow_blank => true
 

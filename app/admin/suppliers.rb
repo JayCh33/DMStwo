@@ -42,13 +42,24 @@ ActiveAdmin.register Supplier do
      row :company
      row :company_details
      row :bank_details
-    panel "Supplier's Purchase Orders Details" do
-      attributes_table_for supplier.purchase_orders do
-        row :order_details
-        row :eta
-        row :completed
+      panel "Supplier's Pending Purchase Orders Details" do
+        attributes_table_for supplier.purchase_orders.where(:completed => false) do
+          row :order_details
+          row :eta do |ad|
+            link_to ad.eta, admin_purchase_order_path(ad)
+          end
+          row :completed
+        end
       end
-    end
+     panel "Supplier's Completed Purchase Orders Details" do
+       attributes_table_for supplier.purchase_orders.where(:completed => true) do
+         row :order_details, :max_length => 10
+         row :eta do |ad|
+           link_to ad.eta, admin_purchase_order_path(ad)
+         end
+         row :completed
+       end
+     end
     end
   end
 

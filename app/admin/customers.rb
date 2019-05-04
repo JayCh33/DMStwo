@@ -2,7 +2,8 @@ ActiveAdmin.register Customer do
   menu priority: 6
   permit_params :name, :country, :city, :address,
                 :postal_code, :email, :phone, :details, #vehicle_ids: [],
-                vehicles_attributes: [:id, :vehicle_registration_plate, :vehicle_identification_number]
+                vehicles_attributes: [:id, :vehicle_registration_plate,
+                                      :vehicle_identification_number]
 
   form do |f|
     f.inputs do
@@ -45,7 +46,7 @@ ActiveAdmin.register Customer do
         row :image do |ad|
           image_tag ad.image.small
         end
-        #row :vehicle_type
+        row :vehicle_type
         row :vehicle_identification_number do |ad|
           link_to ad.vehicle_identification_number, admin_vehicle_path(ad)
         end

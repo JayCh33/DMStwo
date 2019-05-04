@@ -4,10 +4,10 @@ class SuppliersController < InheritedResources::Base
 
   private
 
-    def supplier_params
-      params.require(:supplier).permit(:name, :country, :city, :address,
-                                       :postal_code, :email, :phone, :company,
-                                       :company_details, :bank_details)
-    end
+    #def supplier_params
+    #  params.require(:supplier).permit(:name, :country, :city, :address,
+    #                                   :postal_code, :email, :phone, :company,
+    #                                   :company_details, :bank_details)
+    #end
 
 end
