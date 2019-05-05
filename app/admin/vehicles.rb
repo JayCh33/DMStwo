@@ -11,7 +11,7 @@ ActiveAdmin.register Vehicle do
 
   scope :all
   scope :customer_vehicle
-  scope :curtesy_vehicle
+  scope :courtesy_vehicle
   scope :demo_vehicle
   scope :inventory_vehicle
   scope :vehicle_of_interest
@@ -21,7 +21,7 @@ ActiveAdmin.register Vehicle do
       f.input :image
       f.input :vehicle_identification_number
       f.input :vehicle_registration_plate
-      f.input :vehicle_type, collection: ['Customer vehicle','Curtesy vehicle', 'Demo vehicle',
+      f.input :vehicle_type, collection: ['Customer vehicle','Courtesy vehicle', 'Demo vehicle',
                                           'Inventory vehicle', 'Vehicle of interest']
       f.input :customer
       f.input :vehicle_make, collection: ['Alfa Romeo', 'Audi', 'BMW','Citroen','Fiat',

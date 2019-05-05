@@ -17,7 +17,7 @@ class Vehicle < ApplicationRecord
   validates_uniqueness_of :vehicle_registration_plate, :allow_blank => true
 
   scope :customer_vehicle, ->{where(vehicle_type: 'Customer vehicle')}
-  scope :curtesy_vehicle, ->{where(vehicle_type: 'Curtesy vehicle')}
+  scope :courtesy_vehicle, ->{where(vehicle_type: 'Courtesy vehicle')}
   scope :demo_vehicle, ->{where(vehicle_type: 'Demo vehicle')}
   scope :inventory_vehicle, ->{where(vehicle_type: 'Inventory vehicle')}
   scope :vehicle_of_interest, ->{where(vehicle_type: 'Vehicle of interest')}
