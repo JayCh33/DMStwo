@@ -5,17 +5,17 @@ ActiveAdmin.register AdminUser do
 
   index do
     selectable_column
-    id_column
-    column :email
-    #column :superadmin
-    column :created_at
     if superadmin?
+      column :email do |u|
+        link_to u.email, admin_admin_user_path(u)
+      end
+      column :created_at
       toggle_bool_column :superadmin
     else
+      column :email
+      column :created_at
       column :superadmin
     end
-    #column :current_sign_in_at
-    #column :sign_in_count
     if superadmin?
       actions
     end

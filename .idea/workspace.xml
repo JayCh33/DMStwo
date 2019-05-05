@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d8803e1b-4793-4897-a6ca-cf8e3deb0afb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/vehicles.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/vehicles.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/vehicle.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/vehicle.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/admin_users.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/admin_users.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -68,10 +66,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/admin/vehicles.rb">
+        <entry file="file://$PROJECT_DIR$/app/admin/admin_users.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="255">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/admin/customers.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="48" column="8" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -131,7 +138,6 @@
         <option value="$PROJECT_DIR$/app/models/line_product.rb" />
         <option value="$PROJECT_DIR$/app/models/product.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20190501171645_create_parts.rb" />
-        <option value="$PROJECT_DIR$/app/admin/admin_users.rb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/app/controllers/clients_controller.rb" />
         <option value="$PROJECT_DIR$/app/admin/clients.rb" />
@@ -161,6 +167,7 @@
         <option value="$PROJECT_DIR$/app/models/admin_user.rb" />
         <option value="$PROJECT_DIR$/app/models/vehicle.rb" />
         <option value="$PROJECT_DIR$/app/admin/vehicles.rb" />
+        <option value="$PROJECT_DIR$/app/admin/admin_users.rb" />
       </list>
     </option>
   </component>
@@ -388,7 +395,7 @@
       <workItem from="1556904314808" duration="86000" />
       <workItem from="1556904459093" duration="11403000" />
       <workItem from="1556966805147" duration="8210000" />
-      <workItem from="1557052721816" duration="307000" />
+      <workItem from="1557052721816" duration="2066000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed seed Admin_user.superadmin&#10;Fixed Yarn error">
       <created>1553705869827</created>
@@ -593,14 +600,22 @@
       <option name="project" value="LOCAL" />
       <updated>1556985981015</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="v0.13.1 (Courtesy fix)">
+      <created>1557053045816</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1557053045816</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210789000" />
+    <option name="totallyTimeSpent" value="212548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1364" y="2" width="1167" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2646793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -648,7 +663,8 @@
     <MESSAGE value="v0.11 (ReadMe changes)" />
     <MESSAGE value="v0.12" />
     <MESSAGE value="v0.13" />
-    <option name="LAST_COMMIT_MESSAGE" value="v0.13" />
+    <MESSAGE value="v0.13.1 (Courtesy fix)" />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.13.1 (Courtesy fix)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1022,13 +1038,6 @@
     <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/customers.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="48" column="8" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/service_appointments.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -1054,13 +1063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/admin_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1124,8 +1126,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/vehicles.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="-1429">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/customers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="48" column="8" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/admin_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
         </state>
       </provider>
     </entry>
